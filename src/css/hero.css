@@ -1,0 +1,41 @@
+.hero-body {
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 335px;
+   height: 620px;
+   background-image: url(/img/hero/hero-mobile-img.jpg);
+   background-repeat: no-repeat;
+   border-radius: 30px;
+}
+
+@media screen and (min-width: 768px) {
+   .hero-body {
+      max-width: 704px;
+         height: 890px;
+      background-image: url(/img/hero/hero-tablet-img.jpg);
+   }
+}
+
+@media screen and (min-width: 1200px) {
+   .hero-body {
+      max-width: 1136px;
+         height: 600px;
+      background-image: url(/img/hero/hero-desktop-img.jpg);
+   }
+}
+
+.hero-content-container {
+   max-width: 484px;
+   padding-top: 381px;
+   padding-left: 40px;
+}
+
+.hero-text {
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 1.21;
+letter-spacing: -0.03em;
+color: white;
+margin-bottom: 32px;
+}
