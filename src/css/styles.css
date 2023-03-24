@@ -5,21 +5,37 @@
   |============================
 */
 @import url('./reset.css');
+@import url('./base.css');
 @import url('./vite-promo.css');
+
+/*Alina Holovina*/
 @import url('./header.css');
 
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+/* Anton Vasyliev */
+@import url('./hero.css');
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+/* Max Vakulenko */
+@import url('./advantages.css');
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
+/* Nelly */
+@import url('./unique-components.css');
+
+/* Oksana */
+@import url('./how-its-made.css');
+
+/* Tetiana Karakis */
+@import url('./our-products.css');
+
+/* Viktoria Shkvarko */
+@import url('./top-sellers.css');
+
+/* Yuliia Diudina */
+@import url('./reviews.css');
+
+/* Анна Юрьевна */
+@import url('./subscribe.css');
+
+/* Олександр */
+@import url('./footer.css');
+
+
