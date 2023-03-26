@@ -31,7 +31,6 @@ padding-left: 33px;
 }
 
 .swiper-slide{
- 
  overflow: hidden;
     background-color:#ffffff;
  max-width: 100%;
@@ -40,17 +39,23 @@ min-height: 100%;
     height: 364px;
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 15px;
-    margin-bottom: 32px;
+  
   text-align: center;
 
 }
 
-.image-wrapper {
- padding-left: 25%;
-  overflow: hidden;
- 
-}
 
+.image-wrapper {
+  position: relative;
+  overflow: hidden;
+ text-align: center;
+ margin-bottom: 0;
+}
+.foto-our{
+  display: block;
+  margin: auto;
+  padding: 32px 20px 8px 20px;
+}
 .name-our-products{
 height: 24px;
 width: 100%;
@@ -63,6 +68,7 @@ margin-top: 8px;
 margin-bottom: 2px;
 
 }
+
 .button-our-products{
   display: flex;
   flex-direction: row;
@@ -77,8 +83,8 @@ margin-bottom: 2px;
   height: 33px;
   left: 88px;
   top: 299px;
- white-space: nowrap;
- margin-top: 18px;
+  white-space: nowrap;
+
 }
 .price{
   width: 55px;
@@ -89,13 +95,17 @@ margin-bottom: 2px;
   line-height: 1.2;
   color: #111111;
 }
-.image-slider-our-products .swiper-pagination-bullet {
+.image-slider-our-products{
+  margin-bottom: 32px;
+}
+
+ .swiper-pagination-bullet {
   width: 13px;
   height: 13px;
   background: rgba(17, 17, 17, 0.1);
   
 }
-.image-slider-our-products .swiper-pagination-bullet-active {
+ .swiper-pagination-bullet-active {
   width: 28px;
   height: 13px;
   border-radius: 32px;
