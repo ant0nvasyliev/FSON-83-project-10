@@ -83,18 +83,18 @@
 }
 
 @media (min-width: 1200px) {
-    .adv-item:nth-child(2)::after {
-      content: '';
-      position: absolute;
-      width: 124px;
-      height: 1px;
-      background-color: var(--color-white);
-      opacity: 0.5;
-      transform: rotate(90deg);
-      left: 264px;
-      bottom: 121.5px;
-    }
+  .adv-item:nth-child(2)::after {
+    content: '';
+    position: absolute;
+    width: 124px;
+    height: 1px;
+    background-color: var(--color-white);
+    opacity: 0.5;
+    transform: rotate(90deg);
+    left: 264px;
+    bottom: 121.5px;
   }
+}
 .adv-div-icon {
   width: 62px;
   height: 62px;
