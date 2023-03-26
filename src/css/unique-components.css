@@ -1,0 +1,29 @@
+:root {
+    --color-black: #111111;
+    --color-dark-purple: #1E1823;
+    --color-orange: #FD9222;
+    --color-white: #FFFFFF;
+}
+
+.container {
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
