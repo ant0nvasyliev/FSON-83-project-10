@@ -1,0 +1,200 @@
+
+
+.hero-body {
+position: relative;
+min-height: 620px;
+max-width: 1136px;
+background-image: url(/img/hero/hero-mobile-img.jpg);
+background-repeat: no-repeat;
+border-radius: 30px;
+background-size: cover;
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+screen and (min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px) {
+   .hero-body {
+      background-image: url(/img/hero/hero-mobile-img@2x.jpg);
+   }
+}
+
+
+@media screen and (min-width: 768px) {
+   .hero-body {
+      background-image: url(/img/hero/hero-tablet-img.jpg);
+   }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px) {
+   .hero-body {
+      background-image: url(/img/hero/hero-tablet-img@2x.jpg);
+   }
+}
+
+@media screen and (min-width: 1200px) {
+   .hero-body {
+      background-image: url(/img/hero/hero-desktop-img.jpg);
+   }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+screen and (min-resolution: 192dpi) and (min-width: 1200px),
+screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+   .hero-body {
+      background-image: url(/img/hero/hero-desktop-img@2x.jpg);
+   }
+}
+
+.hero-content-container {
+max-width: 484px;
+padding-top: 395px;
+padding-left: 20px;
+padding-right: 22px;
+padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+   .hero-content-container {
+   padding-left: 40px;
+   padding-bottom: 40px;
+   }
+}
+
+/* @media screen and (min-width: 1200px) {
+   .hero-content-container {
+     
+   }
+} */
+
+.hero-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: -0.03em;
+color: var(--color-white);
+margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+.hero-title {
+font-size: 28px;
+}
+}
+
+.hero-buttons-container {
+   display: flex;
+   margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+   .hero-buttons-container {
+      margin-bottom: 0;
+   }
+}
+
+.buy-now-btn {
+margin-right: 14px;
+background-color: var(--color-orange);
+border-radius: 100px;
+width: 120px;
+height: 41px;
+color: var(--color-white);
+border: none;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+transition: background-color, color 200ms linear;
+}
+
+@media screen and (min-width: 768px) {
+   .buy-now-btn {
+   width: 144px;
+   height: 45px;
+   }
+}
+
+.buy-now-btn:hover,
+.buy-now-btn:focus {
+background: #FCF1E0;
+color: var(--color-orange);
+}
+
+.hero-how-its-made-btn {
+padding: 12px 26px;
+width: 159px;
+/* height: 41px; */
+border: 1px solid #FFFFFF;
+border-radius: 100px;
+font-weight: 600;
+font-size: 14px;
+line-height: 1.2;
+color: #FFFFFF;
+transition: border, color 200ms linear;
+}
+
+@media screen and (min-width: 768px) {
+   .hero-how-its-made-btn {
+      padding: 14px 39px;
+      min-width: 183px;
+      height: 45px;
+   }
+}
+
+.hero-how-its-made-btn:hover,
+.hero-how-its-made-btn:focus {
+color: var(--color-orange);
+border: 1px solid var(--color-orange);
+}
+
+ .hero-scroll-down-btn {
+right: 40px;
+bottom: 40px;
+display: flex;
+align-items: center;
+color: var(--color-white);
+font-weight: 500;
+font-size: 12px;
+line-height: 1.28;
+letter-spacing: -0.03em;
+transition: color 200ms linear;
+}
+
+@media screen and (min-width: 768px) {
+   .hero-scroll-down-btn {
+    position: absolute;
+   font-size: 14px;
+   }
+}
+
+.hero-scroll-down-btn:hover,
+.hero-scroll-down-btn:focus {
+color: var(--color-orange);
+} 
+
+.hero-scroll-down-icon {
+fill: var(--color-orange);
+padding: 8px;
+margin-left: 14px;
+width: 28px;
+height: 28px;
+transition: color 200ms linear;
+border-radius: 50%;
+background-color: var(--color-white);
+transition: stroke, background-color 200ms linear;
+}
+
+@media screen and (min-width: 768px) {
+   .hero-scroll-down-icon {
+   padding: 8px;
+   width: 38px;
+   height: 38px;
+   }
+}
+
+.hero-scroll-down-btn:hover .hero-scroll-down-icon,
+.hero-scroll-down-btn:focus .hero-scroll-down-icon {
+fill: var(--color-white);
+background-color: var(--color-orange);
+}
