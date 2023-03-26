@@ -9,7 +9,7 @@ const swiper = new Swiper('.swiper', {
     clickable: true,
   },
   slidesPerView: 4,
-  spaceBetween: 30,
+  spaceBetween: 18,
   // Navigation arrows
   //   navigation: {
   //     nextEl: '.swiper-button-next',
