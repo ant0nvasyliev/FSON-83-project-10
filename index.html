@@ -26,7 +26,7 @@
     />
     
     <script type="module" crossorigin src="/fson-83-project-10/assets/index-9197399e.js"></script>
-    <link rel="stylesheet" href="/fson-83-project-10/assets/index-d1894ebb.css">
+    <link rel="stylesheet" href="/fson-83-project-10/assets/index-965ee31d.css">
   </head>
   <body>
     <header>
@@ -35,7 +35,138 @@
     </header>
     <main>
       <!-- Anton Vasyliev -->
-      
+      <section class="hero container">
+  <div class="hero-body">
+    <div class="hero-content-container">
+      <h1 class="hero-title">
+        Treat yourself or a loved one to our finest ingredients for a moment of
+        pure delight!
+      </h1>
+      <div class="hero-buttons-container">
+        <button class="buy-now-btn" type="button">Buy now</button>
+        <!-- Посилання якір до секції --id="howitsmade--"-->
+        <a class="hero-how-its-made-btn" href="#howitsmade">How it’ smade</a>
+      </div>
+      <!-- Посилання якір до секції --id="footer--"-->
+      <a class="hero-scroll-down-btn" href="#footer">
+        <p>scroll down</p>
+        <svg class="hero-scroll-down-icon" width="38" heigth="38">
+          <use href="../img/sprite.svg#scroll-down-icon"></use>
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- Модалка -->
+  <div class="backdrop visually-hidden">
+    <div class="buy-now-modal">
+      <button type="button" class="">
+        <svg class="modal-close-btn-icon" width="28" height="28">
+          <use href="/fson-83-project-10/assets/sprite-e80054b4.svg#menu-modal-close-icon"></use>
+        </svg>
+      </button>
+      <h1 class="buy-now-modal-title">
+        <span class="buy-now-modal-title-orange">BUY</span> NOW
+      </h1>
+      <ul class="modal-card-list">
+        <li class="modal-card-list-item">
+          <img
+            class="modal-card-list-img"
+            src="/fson-83-project-10/assets/modal-100g-img-9e8a10a6.png"
+            alt=""
+          />
+          <p class="modal-card-list-dscr">100 g</p>
+        </li>
+        <li class="modal-card-list-item">
+          <img
+            class="modal-card-list-img"
+            src="../img/modal-200g-img.png"
+            alt=""
+          />
+          <p class="modal-card-list-dscr">200 g</p>
+        </li>
+        <li class="modal-card-list-item">
+          <img
+            class="modal-card-list-img"
+            src="../img/modal-300g-img.png"
+            alt=""
+          />
+          <p class="modal-card-list-dscr">300 g</p>
+        </li>
+      </ul>
+      <form class="modal-form">
+        <label class="modal-form-field">
+          <span class="modal-form-input-descr">Personal information</span>
+          <input
+            type="text"
+            name="user-name"
+            class="modal-form-input"
+            required
+            pattern="[a-zA-Zа-яА-Я]+$"
+            minlength="2"
+            placeholder="Name"
+          />
+          <input
+            type="text"
+            name="user-surname"
+            class="modal-form-input"
+            required
+            pattern="[a-zA-Zа-яА-Я]+$"
+            minlength="2"
+            placeholder="Surname"
+          />
+        </label>
+        <label class="modal-form-field">
+          <span class="modal-form-input-descr">Email</span>
+          <input
+            type="text"
+            name="user-email"
+            class="modal-form-input"
+            required
+            placeholder="Enter your email"
+          />
+        </label>
+        <label class="modal-form-field">
+          <span class="modal-form-input-descr">Phone number</span>
+          <div class="modal-form-phone-wrapper">
+            <input
+              type="tel"
+              name="user-phone"
+              class="modal-form-number-input"
+              required
+              pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}"
+              title="xxx-xxx-xx-xx"
+              placeholder="Phone number"
+            />
+            <svg class="modal-flag-icon" width="32" height="32">
+              <use href="/fson-83-project-10/assets/sprite-e80054b4.svg#flag-icon"></use>
+            </svg>
+          </div>
+        </label>
+        <label class="modal-form-field">
+          <span class="modal-form-input-descr">Card number</span>
+          <input
+            type="text"
+            name="user-card-number"
+            class="modal-form-input"
+            required
+            placeholder="Enter card"
+          />
+        </label>
+        <label class="modal-form-field">
+          <span class="modal-form-input-descr">Comment</span>
+          <textarea
+            class="modal-form-comment"
+            name="user-coment"
+            placeholder="Enter text"
+          ></textarea>
+        </label>
+        <button type="submit" class="modal-form-button">Submit</button>
+      </form>
+    </div>
+  </div>
+</section>
+
 
       <!-- Max Vakulenko -->
       
