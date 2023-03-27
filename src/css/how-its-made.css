@@ -37,7 +37,6 @@
 }
 
 .about-section-picture {
-  border: transparent;
   border-radius: 15px;
   width: 600px;
   height: 400px;
@@ -45,6 +44,10 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.picture {
+  border-radius: 15px;
 }
 
 .about-section-description {
@@ -81,7 +84,7 @@
   padding-bottom: 24px;
 }
 
-/*.about-section-list-text::before {
+.about-section-list-text::before {
   content: '';
   width: 8px;
   height: 8px;
@@ -90,8 +93,7 @@
   background-size: contain;
   margin-right: 8px;
   background-image: url('../img/how-its-made/Ellipse\ 1.jpg');
-} */
-
+}
 .play-icon {
   align-items: center;
   justify-content: center;
