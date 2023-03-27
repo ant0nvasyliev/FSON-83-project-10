@@ -296,9 +296,30 @@ color: var(--color-orange);
 
 .modal-form-number-input {
    width: 100%;
-   padding: 22px 24px 22px ;
+   padding-left: 177px;
    width: 513px;
    height: 66px;
    border: 1.5px solid rgba(17, 17, 17, 0.05);
    border-radius: 13px;
+}
+
+.modal-form-phone-wrapper {
+   position: relative;
+}
+
+.modal-flag-icon {
+position: absolute;
+top: 17px;
+left: 24px;
+}
+
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   padding: 0;
+   overflow: hidden;
+   border: 0;
+   clip: rect(0 0 0 0);
 }
