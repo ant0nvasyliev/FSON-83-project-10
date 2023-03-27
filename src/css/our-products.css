@@ -1,5 +1,5 @@
 .our-products {
-  background-color: #e2e2e2;
+  background-color: #E2E2E2;
   width: 1200px;
   height: 600px;
   padding-right: 33px;
@@ -79,6 +79,7 @@
   left: 88px;
   top: 299px;
   white-space: nowrap;
+
 }
 .price {
   width: 55px;
@@ -90,7 +91,7 @@
   color: #111111;
 }
 .image-slider-our-products {
-  margin-bottom: 32px;
+  margin-bottom: 62px;
 }
 .swiper-pagination {
   position: absolute;
@@ -99,7 +100,7 @@
 .swiper-pagination-bullet {
   width: 13px;
   height: 13px;
-  background: rgba(17, 17, 17, 0.1);
+  background: rgba(17, 17, 17, 0.3);
 }
 .swiper-pagination-bullet-active {
   width: 28px;
