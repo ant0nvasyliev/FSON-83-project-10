@@ -25,6 +25,7 @@
 .list-our-products {
   display: flex;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .swiper-slide {
@@ -91,7 +92,10 @@
 .image-slider-our-products {
   margin-bottom: 32px;
 }
-
+.swiper-pagination {
+  position: absolute;
+  margin-top: 32px;
+}
 .swiper-pagination-bullet {
   width: 13px;
   height: 13px;
