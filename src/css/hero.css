@@ -199,16 +199,25 @@ fill: var(--color-white);
 background-color: var(--color-orange);
 }
 
+.modal-close-btn-icon {
+   stroke: var(--color-black);
+   position: absolute;
+   top: 31px;
+   right: 31px;
+}
+
 .buy-now-modal {
+   position: relative;
    padding: 48px;
    width: 609px;
    height: 1058px;
    background: #FAFAFA;
    border-radius: 15px;
-   text-align: center;
+   
 }
 
 .buy-now-modal-title {
+text-align: center;
 font-weight: 600;
 font-size: 24px;
 line-height: 28px;
@@ -260,6 +269,20 @@ color: var(--color-orange);
    margin-top: 40px;
    display: flex;
    flex-direction: column;
+}
+
+.modal-form-field {
+   margin-bottom: 18px;
+}
+
+.modal-form-input-descr {
+   display: block;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 18px;
+   letter-spacing: -0.02em;
+   color: #000000;
+   margin-bottom: 8px;
 }
 
 .modal-form-input {
