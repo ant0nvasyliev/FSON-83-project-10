@@ -26,7 +26,7 @@
     />
     
     <script type="module" crossorigin src="/fson-83-project-10/assets/index-e20729cd.js"></script>
-    <link rel="stylesheet" href="/fson-83-project-10/assets/index-ffe2e056.css">
+    <link rel="stylesheet" href="/fson-83-project-10/assets/index-9eae6b96.css">
   </head>
   <body>
     <header>
@@ -569,7 +569,7 @@
   </h2>
   <div class="top-sellers">
     <ul class="top-sellers-list top-sellers-list-img">
-      <li class="">
+      <li class="top-sellers-li-img">
         <picture>
           <source
             srcset="/fson-83-project-10/assets/chocolate-ingredients-desktop-5e806c02.jpg 1x, /fson-83-project-10/assets/chocolate-ingredients-desktop@2x-d9a15fbd.jpg 2x"
@@ -589,8 +589,16 @@
             class="top-sellers-image"
           />
         </picture>
+        <div class="div-top-sellers-quotation">
+        <p class="top-sellers-quotation">
+          Crazy enough chocolate originates from a bean just like the coffee bean
+          called Cacao. Cacao has been around for thousands of years and was first
+          discovered by the Native American tribe called the Mayans.
+        </p>
+       
+      </div>
       </li>
-      <li class="">
+      <li class="top-sellers-li-img">
         <picture>
           <source
             srcset="/fson-83-project-10/assets/milk-mint-chocolate-desktop-f30cf4c9.jpg 1x, /fson-83-project-10/assets/milk-mint-chocolate-desktop@2x-d969634e.jpg 2x"
@@ -610,8 +618,13 @@
             class="top-sellers-image"
           />
         </picture>
+        <div class="div-button-buy-now div-button-buy-now-mob">
+          <button class="button-buy-now js-open-modal" type="button">
+            Buy now
+          </button>
+        </div>
       </li>
-      <li class="">
+      <li class="top-sellers-li-img">
         <picture>
           <source
             srcset="/fson-83-project-10/assets/jenga-chocolate-desktop-3a4aba0c.jpg 1x, /fson-83-project-10/assets/jenga-chocolate-desktop@2x-1a642081.jpg 2x"
@@ -632,146 +645,154 @@
           />
         </picture>
       </li>
+      
+      
     </ul>
-    <p class="top-sellers-quotation">
-      Crazy enough chocolate originates from a bean just like the coffee bean
-      called Cacao. Cacao has been around for thousands of years and was first
-      discovered by the Native American tribe called the Mayans.
-    </p>
-    <div class="div-button-buy-now">
-      <button class="button-buy-now js-open-modal" type="button">
-        Buy now
+    <div class="div-top-sellers-quotation-desk-tab">
+      <p class="top-sellers-quotation">
+        Crazy enough chocolate originates from a bean just like the coffee bean
+        called Cacao. Cacao has been around for thousands of years and was first
+        discovered by the Native American tribe called the Mayans.
+      </p>
+      <div class="div-button-buy-now">
+        <button class="button-buy-now js-open-modal" type="button">
+          Buy now
+        </button>
+      </div> 
+    </div>
+    
+    
+    
+  </div>
+  <div class="">
+    <div class="modal-buy-now" data-modal="1">
+      <button class="modal-close js-modal-close" type="button">
+        <svg class="modal-close-icon" height="24" width="24">
+          <use href="/fson-83-project-10/assets/sprite-19e300ed.svg#x-close-icon"></use>
+        </svg>
       </button>
+      <p class="modal-title-top-sellers">
+        Buy <span class="second-part-modal-title-top-sellers"> now</span>
+      </p>
+      <div class="modal-chocolate-img">
+        <img
+          class="modal-img"
+          src="data:image/jpeg;base64,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"
+          alt="chocolate-bar-kinder"
+          width="167"
+        />
+        <div class="div-button-modal-img">
+          <button class="button-modal-img" type="button">100g</button>
+        </div>
+      </div>
+      <form class="form-modal" autocomplete="off" novalidate>
+        <div class="contacts-form-personal-information">
+          <label class="label-form personal-information" for="user-name"
+            >Personal information</label
+          >
+          <input
+            class="input-form input-form-name"
+            id="user-name"
+            type="text"
+            name="user-name"
+            placeholder="Name"
+            pattern="[A-Za-z]"
+          />
+          <input
+            class="input-form input-form-surname"
+            id="user-surname"
+            type="text"
+            name="user-surname"
+            placeholder="Surname"
+            pattern="[A-Za-z]"
+          />
+        </div>
+  
+        <div class="contacts-form-email">
+          <label class="label-form" for="mail">Email</label>
+          <input
+            class="input-form input-form-email"
+            id="mail"
+            type="email"
+            name="user-mail"
+            placeholder="Enter your email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+          />
+        </div>
+        <div class="div-phone-number">
+          <label class="label-form" for="phone-code">Phone number</label>
+          <input
+            class="input-form input-form-phone"
+            id="phone-code"
+            type="tel"
+            name="phone"
+            placeholder="Phone number"
+            pattern="{7}"
+          />
+          <svg class="form-icon-flag" height="18" width="24">
+            <use href="/fson-83-project-10/assets/sprite-19e300ed.svg#flag-icon"></use>
+          </svg>
+        </div>
+        <div class="contacts-form-card-number">
+          <label class="label-form label-form-card-number" for="card-number"
+            >Card number</label
+          >
+          <input
+            class="input-form input-form-card-number"
+            id="card-number"
+            type="number"
+            name="card number"
+            placeholder="Enter card"
+          />
+          <svg class="form-icon-mastercard" height="30" width="44">
+            <use href="/fson-83-project-10/assets/sprite-19e300ed.svg#mastercard-icon"></use>
+          </svg>
+        </div>
+        <div class="contacts-form">
+          <label class="label-form label-form-comment" for="comment"
+            >Comment</label
+          >
+          <textarea
+            class="comment"
+            id="comment"
+            name="user-comment"
+            placeholder="Enter text"
+          ></textarea>
+        </div>
+        <div class="button-submit">
+          <button class="submit-button-top-sellers js-open-modal" type="submit">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+    <div class="modal-thank-you" data-modal="2">
+      <button class="modal-close" type="button">
+        <svg class="modal-close-icon" height="24" width="24">
+          <use href="/fson-83-project-10/assets/sprite-19e300ed.svg#x-close-icon"></use>
+        </svg>
+      </button>
+      <div class="text-modal-thank-you">
+        <h2 class="title-modal-thank-you">thank you!</h2>
+        <p class="quotation-modal-thank-you">
+          We are glad that you ordered our chocolate and we are giving you a 20%
+          discount on all our products.
+        </p>
+        <img
+          class="modal-thank-you-img"
+          srcset="
+          /img/top-sellers/modal-bar-chocolate.jpg   1x,
+          /img/top-sellers/modal-bar-chocolate@2x.jpg 2x
+          "
+          src="/fson-83-project-10/assets/modal-bar-chocolate-5ddcaea8.jpg"
+          alt="bar of chocolate"
+          width="296"
+        />
+      </div>
     </div>
   </div>
 </section>
-<div class="backdrop is-hidden">
-  <div class="modal" data-modal>
-    <button class="modal-close js-modal-close" type="button">
-      <svg class="modal-close-icon" height="24" width="24">
-        <use href="/src/img/sprite.svg#x-close-icon"></use>
-      </svg>
-    </button>
-    <p class="modal-title-top-sellers">
-      Buy <span class="second-part-modal-title-top-sellers"> now</span>
-    </p>
-    <div class="modal-chocolate-img">
-      <img
-        class="modal-img"
-        src="/src/img/top-sellers/modal_mob_sec_top_sellers_chocolate_bar_kinder.jpg"
-        alt="chocolate-bar-kinder"
-        width="167"
-      />
-      <div class="div-button-modal-img">
-        <button class="button-modal-img" type="button">100g</button>
-      </div>
-    </div>
-    <form class="form-modal" autocomplete="off" novalidate>
-      <div class="contacts-form-personal-information">
-        <label class="label-form personal-information" for="user-name"
-          >Personal information</label
-        >
-        <input
-          class="input-form input-form-name"
-          id="user-name"
-          type="text"
-          name="user-name"
-          placeholder="Name"
-          pattern="[A-Za-z]"
-        />
-        <input
-          class="input-form input-form-surname"
-          id="user-surname"
-          type="text"
-          name="user-surname"
-          placeholder="Surname"
-          pattern="[A-Za-z]"
-        />
-      </div>
 
-      <div class="contacts-form-email">
-        <label class="label-form" for="mail">Email</label>
-        <input
-          class="input-form input-form-email"
-          id="mail"
-          type="email"
-          name="user-mail"
-          placeholder="Enter your email"
-          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-        />
-      </div>
-      <div class="div-phone-number">
-        <label class="label-form" for="phone-code">Phone number</label>
-        <input
-          class="input-form input-form-phone"
-          id="phone-code"
-          type="tel"
-          name="phone"
-          placeholder="Phone number"
-          pattern="{7}"
-        />
-        <svg class="form-icon-flag" height="18" width="24">
-          <use href="/src/img/sprite.svg#icon-flag"></use>
-        </svg>
-      </div>
-      <div class="contacts-form-card-number">
-        <label class="label-form label-form-card-number" for="card-number"
-          >Card number</label
-        >
-        <input
-          class="input-form input-form-card-number"
-          id="card-number"
-          type="number"
-          name="card number"
-          placeholder="Enter card"
-        />
-        <svg class="form-icon-mastercard" height="30" width="44">
-          <use href="/src/img/sprite.svg#icon-mastercard"></use>
-        </svg>
-      </div>
-      <div class="contacts-form">
-        <label class="label-form label-form-comment" for="comment"
-          >Comment</label
-        >
-        <textarea
-          class="comment"
-          id="comment"
-          name="user-comment"
-          placeholder="Enter text"
-        ></textarea>
-      </div>
-      <div class="button-submit">
-        <button class="submit-button-top-sellers js-open-modal" type="submit">
-          Submit
-        </button>
-      </div>
-    </form>
-  </div>
-  <div class="modal modal-thank-you" data-modal>
-    <button class="modal-close" type="button">
-      <svg class="modal-close-icon" height="24" width="24">
-        <use href="/src/img/sprite.svg#x-close-icon"></use>
-      </svg>
-    </button>
-    <div class="text-modal-thank-you">
-      <h2 class="title-modal-thank-you">thank you!</h2>
-      <p class="quotation-modal-thank-you">
-        We are glad that you ordered our chocolate and we are giving you a 20%
-        discount on all our products.
-      </p>
-      <img
-        class="modal-thank-you-img"
-        srcset="
-          /src/img/top-sellers/modal-bar-chocolate.jpg    1x,
-          /src/img/top-sellers/modal-bar-chocolate@2x.jpg 2x
-        "
-        src="/src/img/top-sellers/modal-bar-chocolate.jpg"
-        alt="bar of chocolate"
-        width="296"
-      />
-    </div>
-  </div>
-</div>
 
 
       <!-- Yuliia Diudina -->
