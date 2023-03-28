@@ -1,29 +1,77 @@
+:root {
+    --color-black: #111111;
+    --color-dark-purple: #1E1823;
+    --color-orange: #FD9222;
+    --color-white: #FFFFFF;
+    --color-section-background: #E2E2E2;
+}
+.container {
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;    
+    }
+     
+@media screen and (min-width: 768px) {
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+        max-width: 768px;
+    }
+    .navigation {
+        display: block;
+    }
+    .footer-menu {
+        display: block
+    }
+    }
+     
+    @media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+    .navigation {
+        display: flex;
+    }
+    }
+     
+
+
+
+
 ul {
     list-style-type: none;
 }
 
 .footer-fon {
-    background: var (--color-section-background);
+    background-color: var(--color-dark-purple);
 }
 .footer-conteiner {
     display: flex;
-    align-items: center;
-    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-icon {
+    display: flex;
+}
+.footer-menu {
+    display: block
 }
 .logo-first {
+    width: 300;
     font-family: 'Montserrat';
     font-style: normal;
-    font-family: var (--color-orange), sans-serif;
+    font-family: var(--color-orange), sans-serif;
     font-weight: 500;
     font-size: 28px;
     line-height: 34px;
     letter-spacing: -0.02em;
     text-decoration: none;
-    color: var (--color-orange);
+    color: var(--color-orange);
 }
 
 .logo-second {
-    color: var (--color-white);
+    color: var(--color-white);
 }
 .footer-social-media {
     font-family: 'Montserrat';
@@ -31,7 +79,7 @@ ul {
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
-    color: var (--color-white);    
+    color: var(--color-white);    
     padding-bottom: 14px;
     text-align: center;
 }
@@ -40,7 +88,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: var (--color-white);
+    color: var(--color-white);
 }
 .mail {
     font-family: 'Montserrat';
@@ -53,11 +101,17 @@ ul {
     color: var(--color-primary);
 }
 .footer-socials-link {
-    
-    fill: var --color-white;
-    
+    width: 24px;
+    height: 24px;
+    color: var(--color-white);
+    background-color: var(--color-dark-purple);
 }
+.footer-socials-link:hover,
+  .footer-socials-link:focus {
+    background: var(--color-orange);
+  }
 .footer-socials-icon {
+    fill: currentColor;
     width: 24px;
     height: 24px;
 }
@@ -78,8 +132,5 @@ ul {
     letter-spacing: -0.02em;
     text-decoration: none;
     display: flex;
-    color: var --color-white;
+    color: var(--color-white);
 }
-  
- 
- 
