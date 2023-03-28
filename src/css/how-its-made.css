@@ -1,0 +1,171 @@
+.about-section {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background: #fafafa;
+  position: relative;
+}
+
+.about-section-header {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 128px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+
+  color: #111111;
+}
+
+.about-section-header-accent {
+  color: #fd9222;
+}
+
+.how-its-made {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1136px;
+}
+
+.about-section-picture {
+  border-radius: 15px;
+  width: 600px;
+  height: 400px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.picture {
+  border-radius: 15px;
+}
+
+.about-section-description {
+  width: 600px;
+  height: 400px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding-left: 32px;
+  padding-top: 32px;
+  padding-bottom: 34px;
+  padding-right: 32px;
+  margin-left: 20px;
+}
+
+.about-section-title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  padding-bottom: 28px;
+
+  color: #111111;
+}
+
+.about-section-list-text {
+  display: flex;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #111111;
+  padding-bottom: 24px;
+}
+
+.about-section-list-text::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 8px;
+  background-image: url('../img/how-its-made/Ellipse\ 1.jpg');
+}
+.play-icon {
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  .how-its-made {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .about-section-header {
+    padding-bottom: 30px;
+  }
+
+  .about-section-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+  }
+
+  .about-section-description {
+    margin-top: 20px;
+    margin-left: 0px;
+    height: auto;
+    width: 335px;
+    border-radius: 15px;
+  }
+
+  .about-section-list-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .how-its-made {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-section-picture {
+    margin-bottom: 20px;
+  }
+}
+
+.about-section-description {
+  margin-left: 0px;
+}
+
+@media screen and (min-width: 1200px) {
+  .how-its-made {
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+
+  .about-section-description {
+    margin-left: 20px;
+    margin-top: 0;
+  }
+}
