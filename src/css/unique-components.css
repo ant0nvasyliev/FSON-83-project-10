@@ -8,9 +8,13 @@
     line-height: 1.2;
 }
 
+.container-unique {
+    padding: 50px 20px;
+    display: flex;
+}
+
 .container-unique-name {
-    margin-top: 72px;
-    margin-bottom: 72px;
+    padding-top: 72px;
     width: 335px;
 }
 
@@ -55,7 +59,7 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding-top: 32px;
+    padding: 32px 20px;
     text-decoration: none;
 }
 
@@ -203,18 +207,22 @@
         line-height: 1.2;
     }
     
-    .pages-unique {
-        padding-top: 50px;
-        align-items: center;
-        text-align: center;    
-        justify-content: center;
-        flex-basis: calc((100% - 32px) / 2);
-        padding-right: 32px;
+        .pages-unique {
+            gap: 50px 32px;
+            align-items: center;
+             text-align: center;    
+           /* flex-direction: row;
+            flex-wrap: wrap;*/
+            justify-content: center;
+            /*flex-basis: calc((100% - 32px) / 2);*/
+        }
+        .card-image  {
+            width: 336px;
+        }
+    .img {
+        width: 224px;
+        height: 171px;
     }
-    .card-image  {
-        width: 336px;
-    }
-
     .text-card {
         margin: 28px 28px;
     }
@@ -222,7 +230,7 @@
     .pages-unique-one {
         flex-direction: row;
         flex-wrap: wrap;
-        flex-basis: calc((100% - 32px) / 2);
+  
         display: flex;
         margin: 0;
         padding: 0;
