@@ -19,7 +19,9 @@
 }
 
 .unique-text {
-    width: 335px;
+    width: 283px;
+    margin-top: 72px;
+    margin-bottom: 24px;
     font-weight: 600;
     font-size: 20px;
     letter-spacing: -0.03em;
@@ -93,13 +95,6 @@
     text-decoration: none;
 }
 
-/*
-.card-image-unique {
-    width: 335px;
-    height: 270px;
-    border: 1px solid #FD9222;
-    border-radius: 15px;
-}*/
 
 .card-image-chocolate {
     border: 1px solid #FD9222;
@@ -178,39 +173,39 @@
         outline: none;
     }
 
-.img {
-    width: 224px;
-    height: 171px;
-}
 
+.uniq-img {
+    display: flex;
+    margin: auto;
+}
 
 /*model*/
 
 @media screen and (min-width: 768px) {
+    
     .container-unique {
-            width: 704px;
-            padding: 100px 32px;
+        width: 704px;
         }
-          .container-unique-name {
-              padding-top: 100px;
-              width: 704px;
-          }
-/*
+    
+    .container-unique-name {
+        margin-top: 100px;
+        width: 704px;
+        margin-bottom: 100px;
+        }
+
+    .unique-top-text {
+        width: 486px;
+        margin: auto;
+        font-size: 14px;
+        letter-spacing: -0.02em;
+        line-height: 1.1;
+    }
+
     .unique-text {
         width: 411px;
         font-size: 24px;
         line-height: 1.2;
-    }*/
-
-        .unique-top-text {
-            width: 486px;
-            margin: auto;
-        }
-
-        .unique-text {
-            width: 411px;
-                
-        }
+    }
     
         .pages-unique {
             gap: 50px 32px;
@@ -235,24 +230,25 @@
     .pages-unique-one {
         flex-direction: row;
         flex-wrap: wrap;
-        flex-basis: calc((100% - 32px) / 2);
+  
         display: flex;
         margin: 0;
         padding: 0;
     }
 
 }
+
  
 @media screen and (min-width: 1200px) {
     .container-unique {
-        width: 1136px;
-        padding: 50px 32px;
-        justify-content: center;
+            margin-top: 50px;
+            justify-content: center;
+            display: flex;
         }
 
     .container-unique-name {
-        padding-top: 100px;
-        width:px;
+        margin-top: 128px;
+        margin-bottom: 128px;
         }
 
     .unique-text {
@@ -264,35 +260,33 @@
     .unique-top-text {
         width: 486px;
         margin: auto;
+        font-size: 14px;
+        letter-spacing: -0.02em;
+        line-height: 1.2;
         }
 
     .pages-unique {
         display: flex;
         align-items: center;
         text-align: center;
-        flex-basis: calc((100% - 19px *3) / 4);
+     
     }
 
-        .card-image {
-            width: 270px;
-            height: 270px;
-        }
-         .img {
-             width: 206px;
-             height: 160px;
-             padding: 28px 28px 32px 82px;
-         }
+    .card-image {
+        width: 270px;
+        height: 270px;
+    }
         
-         .text-card {
-            display: flex;
-            margin: 36px 28px;
-         }
+    .text-card {
+         display: flex;
+         margin: 36px 28px;
+    }
 
-        .pages-unique-one {
-            display: flex;
-            flex-wrap: nowrap;
-            flex-basis: calc((100% - 19px * 3) / 4);
-        }
+    .pages-unique-one {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-basis: calc((100% - 19px * 3) / 4);
+    }
    
 }
 
