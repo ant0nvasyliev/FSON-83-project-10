@@ -63,7 +63,6 @@
   margin-top: 8px;
   margin-bottom: 2px;
 }
-
 .button-our-products {
   display: flex;
   flex-direction: row;
@@ -79,7 +78,6 @@
   left: 88px;
   top: 299px;
   white-space: nowrap;
-
 }
 .price {
   width: 55px;
@@ -91,16 +89,20 @@
   color: #111111;
 }
 .image-slider-our-products {
+  margin-bottom: 32px;
+}
+
+.swiper-pagination-bullet {
+  width: 13px;
+  height: 13px;
+  background: rgba(17, 17, 17, 0.1);
   margin-bottom: 62px;
 }
 .swiper-pagination {
   position: absolute;
   margin-top: 32px;
 }
-.swiper-pagination-bullet {
-  width: 13px;
-  height: 13px;
-  background: rgba(17, 17, 17, 0.3);
+
 }
 .swiper-pagination-bullet-active {
   width: 28px;
