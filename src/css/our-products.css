@@ -1,5 +1,5 @@
 .our-products {
-  background-color: #e2e2e2;
+  background-color: #E2E2E2;
   width: 1200px;
   height: 600px;
   padding-right: 33px;
@@ -25,6 +25,7 @@
 .list-our-products {
   display: flex;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .swiper-slide {
@@ -62,7 +63,6 @@
   margin-top: 8px;
   margin-bottom: 2px;
 }
-
 .button-our-products {
   display: flex;
   flex-direction: row;
@@ -96,6 +96,13 @@
   width: 13px;
   height: 13px;
   background: rgba(17, 17, 17, 0.1);
+  margin-bottom: 62px;
+}
+.swiper-pagination {
+  position: absolute;
+  margin-top: 32px;
+}
+
 }
 .swiper-pagination-bullet-active {
   width: 28px;
