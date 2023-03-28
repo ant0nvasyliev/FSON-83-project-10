@@ -26,7 +26,7 @@
     />
     
     <script type="module" crossorigin src="/fson-83-project-10/assets/index-79f47e7f.js"></script>
-    <link rel="stylesheet" href="/fson-83-project-10/assets/index-f9736207.css">
+    <link rel="stylesheet" href="/fson-83-project-10/assets/index-19b3a2f3.css">
   </head>
   <body>
     <header>
@@ -575,86 +575,175 @@
   <div class="top-sellers">
     <ul class="top-sellers-list top-sellers-list-img">
       <li class="">
-        <img
-          class="top-sellers-img"
-          srcset="/src/img/top-sellers/chocolate-ingredients-mobile.jpg 1x, /src/img/top-sellers/chocolate-ingredients-mobile@2x.jpg 2x"
-          src="/src/img/top-sellers/chocolate-ingredients-mobile.jpg"
-          alt="chocolate bar with nuts"
-          width="335"
-        />
-        
+        <picture>
+          <source
+            srcset="/fson-83-project-10/assets/chocolate-ingredients-desktop-5e806c02.jpg 1x, /fson-83-project-10/assets/chocolate-ingredients-desktop@2x-d9a15fbd.jpg 2x"
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="/fson-83-project-10/assets/chocolate-ingredients-tablet-659408e6.jpg 1x, /fson-83-project-10/assets/chocolate-ingredients-tablet@2x-f0c107a5.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/fson-83-project-10/assets/chocolate-ingredients-mobile-8344cb6c.jpg 1x, /fson-83-project-10/assets/chocolate-ingredients-mobile@2x-88ca2a9f.jpg 2x"
+            media="(min-width: 375px)"
+          />
+          <img
+            src="/fson-83-project-10/assets/chocolate-ingredients-mobile-8344cb6c.jpg"
+            alt="chocolate-ingredients"
+            class="top-sellers-image"
+          />
+        </picture>
       </li>
       <li class="">
-        <img
-          class="top-sellers-img"
-          srcset="
-            /src/img/top-sellers/milk-mint-chocolate-mobile.jpg 1x,
-            /src/img/top-sellers/milk-mint-chocolate-mobile@2x.jpg 2x
-          "
-          src="/src/img/top-sellers/milk-mint-chocolate-mobile.jpg"
-          alt="chocolate bar with mint"
-          width="335"
-        />
-       
+        <picture>
+          <source
+            srcset="/fson-83-project-10/assets/milk-mint-chocolate-desktop-f30cf4c9.jpg 1x, /fson-83-project-10/assets/milk-mint-chocolate-desktop@2x-d969634e.jpg 2x"
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="/fson-83-project-10/assets/milk-mint-chocolate-tablet-587aa654.jpg 1x, /fson-83-project-10/assets/milk-mint-chocolate-tablet@2x-f5bcb700.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/fson-83-project-10/assets/milk-mint-chocolate-mobile-c0b68e68.jpg 1x, /fson-83-project-10/assets/milk-mint-chocolate-mobile@2x-ad1daf9a.jpg 2x"
+            media="(min-width: 375px)"
+          />
+          <img
+            src="/fson-83-project-10/assets/milk-mint-chocolate-mobile-c0b68e68.jpg"
+            alt="jenga-chocolate"
+            class="top-sellers-image"
+          />
+        </picture>
       </li>
-     
+      <li class="">
+        <picture>
+          <source
+            srcset="/fson-83-project-10/assets/jenga-chocolate-desktop-3a4aba0c.jpg 1x, /fson-83-project-10/assets/jenga-chocolate-desktop@2x-1a642081.jpg 2x"
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              /img/top-sellers/jenga-chocolate-tablet.jpg    1x,
+              /img/top-sellers/jenga-chocolate-tablet@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              /img/top-sellers/jenga-chocolate-mobile.jpg    1x,
+              /img/top-sellers/jenga-chocolate-mobile@2x.jpg 2x
+            "
+            media="(min-width: 375px)"
+          />
+          <img
+            src="/img/top-sellers/jenga-chocolate-mobile.jpg"
+            alt="jenga-chocolate"
+            class="top-sellers-image"
+          />
+        </picture>
+      </li>
     </ul>
     <p class="top-sellers-quotation">
-      Crazy enough chocolate originates from a bean just like the coffee
-      bean called Cacao. Cacao has been around for thousands of years and
-      was first discovered by the Native American tribe called the Mayans.
+      Crazy enough chocolate originates from a bean just like the coffee bean
+      called Cacao. Cacao has been around for thousands of years and was first
+      discovered by the Native American tribe called the Mayans.
     </p>
-    <div class="div-button-buy-now ">
-    <button class="button-buy-now js-open-modal" type="button" >Buy now</button>
-  </div>
+    <div class="div-button-buy-now">
+      <button class="button-buy-now js-open-modal" type="button">
+        Buy now
+      </button>
+    </div>
   </div>
 </section>
-<div class="backdrop is-hidden" >
+<div class="backdrop is-hidden">
   <div class="modal" data-modal>
-    <button class="modal-close js-modal-close" type="button" >
+    <button class="modal-close js-modal-close" type="button">
       <svg class="modal-close-icon" height="24" width="24">
         <use href="/src/img/sprite.svg#x-close-icon"></use>
       </svg>
     </button>
-    <p class="modal-title-top-sellers">Buy <span class="second-part-modal-title-top-sellers"> now</span> </p>
+    <p class="modal-title-top-sellers">
+      Buy <span class="second-part-modal-title-top-sellers"> now</span>
+    </p>
     <div class="modal-chocolate-img">
-        <img class="modal-img"
+      <img
+        class="modal-img"
         src="/src/img/top-sellers/modal_mob_sec_top_sellers_chocolate_bar_kinder.jpg"
         alt="chocolate-bar-kinder"
-        width="167"/>
-        <div class="div-button-modal-img">
-          <button class="button-modal-img" type="button">100g</button>
+        width="167"
+      />
+      <div class="div-button-modal-img">
+        <button class="button-modal-img" type="button">100g</button>
       </div>
     </div>
     <form class="form-modal" autocomplete="off" novalidate>
       <div class="contacts-form-personal-information">
-        <label class="label-form personal-information" for="user-name">Personal information</label>
-        <input class="input-form input-form-name" id="user-name" type="text" name="user-name" placeholder="Name" pattern="[A-Za-z]"/>
-        <input class="input-form input-form-surname" id="user-surname" type="text" name="user-surname" placeholder="Surname" pattern="[A-Za-z]" />
+        <label class="label-form personal-information" for="user-name"
+          >Personal information</label
+        >
+        <input
+          class="input-form input-form-name"
+          id="user-name"
+          type="text"
+          name="user-name"
+          placeholder="Name"
+          pattern="[A-Za-z]"
+        />
+        <input
+          class="input-form input-form-surname"
+          id="user-surname"
+          type="text"
+          name="user-surname"
+          placeholder="Surname"
+          pattern="[A-Za-z]"
+        />
       </div>
- 
+
       <div class="contacts-form-email">
         <label class="label-form" for="mail">Email</label>
-        <input class="input-form input-form-email" id="mail" type="email" name="user-mail" placeholder="Enter your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" />
-       
+        <input
+          class="input-form input-form-email"
+          id="mail"
+          type="email"
+          name="user-mail"
+          placeholder="Enter your email"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+        />
       </div>
       <div class="div-phone-number">
         <label class="label-form" for="phone-code">Phone number</label>
-        <input class="input-form input-form-phone" id="phone-code" type="tel" name="phone" placeholder="Phone number" pattern="{7}" />
+        <input
+          class="input-form input-form-phone"
+          id="phone-code"
+          type="tel"
+          name="phone"
+          placeholder="Phone number"
+          pattern="{7}"
+        />
         <svg class="form-icon-flag" height="18" width="24">
           <use href="/src/img/sprite.svg#icon-flag"></use>
         </svg>
-        
       </div>
       <div class="contacts-form-card-number">
-        <label class="label-form label-form-card-number" for="card-number">Card number</label>
-        <input class="input-form input-form-card-number" id="card-number" type="number" name="card number" placeholder="Enter card"/>
+        <label class="label-form label-form-card-number" for="card-number"
+          >Card number</label
+        >
+        <input
+          class="input-form input-form-card-number"
+          id="card-number"
+          type="number"
+          name="card number"
+          placeholder="Enter card"
+        />
         <svg class="form-icon-mastercard" height="30" width="44">
           <use href="/src/img/sprite.svg#icon-mastercard"></use>
         </svg>
       </div>
       <div class="contacts-form">
-        <label class="label-form label-form-comment" for="comment">Comment</label>
+        <label class="label-form label-form-comment" for="comment"
+          >Comment</label
+        >
         <textarea
           class="comment"
           id="comment"
@@ -663,7 +752,9 @@
         ></textarea>
       </div>
       <div class="button-submit">
-        <button class="submit-button-top-sellers js-open-modal" type="submit" >Submit</button>
+        <button class="submit-button-top-sellers js-open-modal" type="submit">
+          Submit
+        </button>
       </div>
     </form>
   </div>
@@ -674,166 +765,221 @@
       </svg>
     </button>
     <div class="text-modal-thank-you">
-    <h2 class="title-modal-thank-you">thank you!</h2>
-    <p class="quotation-modal-thank-you">We are glad that you ordered our chocolate and we are giving you a 20% discount on all our products.</p>
-    <img class="modal-thank-you-img" 
-    srcset="/src/img/top-sellers/modal-bar-chocolate.jpg 1x, /src/img/top-sellers/modal-bar-chocolate@2x.jpg 2x"
-    src="/src/img/top-sellers/modal-bar-chocolate.jpg"
-    alt="bar of chocolate"
-    width="296"/>
+      <h2 class="title-modal-thank-you">thank you!</h2>
+      <p class="quotation-modal-thank-you">
+        We are glad that you ordered our chocolate and we are giving you a 20%
+        discount on all our products.
+      </p>
+      <img
+        class="modal-thank-you-img"
+        srcset="
+          /src/img/top-sellers/modal-bar-chocolate.jpg    1x,
+          /src/img/top-sellers/modal-bar-chocolate@2x.jpg 2x
+        "
+        src="/src/img/top-sellers/modal-bar-chocolate.jpg"
+        alt="bar of chocolate"
+        width="296"
+      />
+    </div>
   </div>
 </div>
-</div>
+
 
       <!-- Yuliia Diudina -->
       <section class="section-review">
-    <div class="container">
-        <h2 class="review-titel">CHOCOLATE <span class="reveiw-titel-color"> IS LOVED </span></h2>
-        <div class="swiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-
-                <img srcset="../img/review/victoria-dobrzhanska@2x.png 2x"
-                src="../img/reviews/victoria-dobrzhanska.png" 
-                alt="photo Victoria Dobrzhanska"
-                width="80"
-                height="80"
-                class="review-img">
-                <div class="review-block">
-                <h3 class="review-name"> Victoria Dobrzhanska</h3>
-                <p class="review-text">I love this chocolate bar. Perfect combination of light crispy wafer, covered in a thin layer chocolate.</p>
-              </div>
-
-              </div>
-              <div class="swiper-slide">                
-                <img srcset="../img/review/nazar-babenko@2x.png 2x"
-                src="../img/reviews/nazar-babenko.png" 
-                alt=" photo Nazar Babenko"
-                width="80"
-                height="80"
-                class="review-img">
-                <div class="review-block">
-                  <h3 class="review-name">Nazar Babenko</h3>
-                <p class="review-text">This chocolate confection is a delight! A delight! The wafer is light and crisp, the hazelnut cream is smooth, and the chocolate is good.</p>
-              </div>
-                </div>
-                
-              <div class="swiper-slide">                
-                <img srcset="../img/review/olena-kampusch@2x.png 2x"
-                src="../img/reviews/olena-kampusch.png" 
-                alt=" photo Olena Kampusch"
-                width="80"
-                height="80"
-                class="review-img">
-                <div class="review-block">
-                <h3 class="review-name">Olena Kampusch</h3>
-                <p class="review-text"> Chocolate is a family favourite treat. Love the delicious smooth chocolate and the creaminess inside. The wafer is soft but crunchy.</p>
-              </div>
-              </div>
-                <div class="swiper-slide">
-                    <img srcset="../img/review/natalia-sus@2x.png 2x"
-                    src="../img/reviews/natalia-sus.png" 
-                    alt=" photo Natalia Sus"
-                    width="80"
-                    height="80"
-                    class="review-img">
-                    <div class="review-block">
-                    <h3 class="review-name">Natalia Sus</h3>
-                    <p class="review-text">The chocolate assortment was delicious. Both dark and milk chocolate pieces were smooth and just right on the sweetness level. </p> 
-                    </div>
-                  </div>
-                <div class="swiper-slide"> 
-                    <img srcset="../img/review/danilo-nottingham@2x.png 2x"
-                    src="../img/reviews/danilo-nottingham.png" 
-                    alt=" photo Danilo Nottinghan"
-                    width="80"
-                    height="80"
-                    class="review-img">
-                    <div class="review-block">
-                      <h3 class="review-name">Danilo Nottingham</h3>
-                      <p class="review-text">This is delicious. It so rich and flavorful you don’t need to use as many. I love topping an apple with almond butter and these chips for a snack.</p>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <img 
-                    srcset="../img/review/irina-tydnyuk@2x.png 2x"
-                    src="../img/reviews/irina-tydnyuk.png" 
-                    alt=" photo Irina Tydnyuk"
-                    width="80"
-                    height="80"
-                    class="review-img">
-                    <div class="review-block">
-                    <h3 class="review-name">Irina Tydnyuk</h3>
-                    <p class="review-text">This is simply the best chocolate around, and I'm just thrilled to support a local company! Best local chocolate - world class :)</p> 
-                    </div>
-                    
-                  </div>
-            </div>
-            <div class="swiper-pagination"></div>
+  <div class="container">
+    <h2 class="review-titel">
+      CHOCOLATE <span class="reveiw-titel-color"> IS LOVED </span>
+    </h2>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img
+            srcset="/fson-83-project-10/assets/victoria-dobrzhanska@2x-674a04bf.png 2x"
+            src="/fson-83-project-10/assets/victoria-dobrzhanska-2673d193.png"
+            alt="photo Victoria Dobrzhanska"
+            width="80"
+            height="80"
+            class="review-img"
+          />
+          <div class="review-block">
+            <h3 class="review-name">Victoria Dobrzhanska</h3>
+            <p class="review-text">
+              I love this chocolate bar. Perfect combination of light crispy
+              wafer, covered in a thin layer chocolate.
+            </p>
           </div>
-        <button type="button" class=" js-open-modal review-btn" data-modal="4" >Leave a review</button>
+        </div>
+        <div class="swiper-slide">
+          <img
+            srcset="/fson-83-project-10/assets/nazar-babenko@2x-6643c5e2.png 2x"
+            src="data:image/png;base64,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"
+            alt=" photo Nazar Babenko"
+            width="80"
+            height="80"
+            class="review-img"
+          />
+          <div class="review-block">
+            <h3 class="review-name">Nazar Babenko</h3>
+            <p class="review-text">
+              This chocolate confection is a delight! A delight! The wafer is
+              light and crisp, the hazelnut cream is smooth, and the chocolate
+              is good.
+            </p>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img
+            srcset="../img/reviews/olena-kampusch@2x.png 2x"
+            src="/fson-83-project-10/assets/olena-kampusch-dc6ecfdf.png"
+            alt=" photo Olena Kampusch"
+            width="80"
+            height="80"
+            class="review-img"
+          />
+          <div class="review-block">
+            <h3 class="review-name">Olena Kampusch</h3>
+            <p class="review-text">
+              Chocolate is a family favourite treat. Love the delicious smooth
+              chocolate and the creaminess inside. The wafer is soft but
+              crunchy.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img
+            srcset="/fson-83-project-10/assets/natalia-sus@2x-ce54c549.png 2x"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAMAAAC5zwKfAAABTVBMVEVHcExaOSpaOyqfb0fIspfb2NXRw7F5UDF0VD3HnDyMXT9UNCZGLiNZNylTNCdGKyI1JSBiOyqld07AmFG4nHZ1STGeb0ibbEfBlj2YaUmecEhuSCzFlzu7jEDh18ni4tvd3NxBKSE8JiBGLCSwhW5SLiNMLyUlHBtwQy5JKiBYMiU1Ih21i3ZSNCjAkXl8TDSxe0+qdU6tf2qpfGWEUTYpHhy2iXFnQC51STJhOiofGhsuIB5aOCm2hWehZ0KESTCjbkyobkO0gGGxelqcaVW/kXKMVzdhNSa7jGR5QiycYTuOTzatdEecZUiQWT7Akn+7jWxtPCmfcV2zgXSleF6WXDi1jH6UXkOocFi7i3mkZju4hl2UYU60joi5kHqBTkCGWEi6jD1xSTyldGxePjO9mYmbaTOvh4CbTEOqf3isezh2LSuHODLGqHJHcEwIW47kAAAAb3RSTlMAgkpa/P7+IBD+32W3muXv3Nvj/UbSf5+Ks8/v2r9/j5///////////////////////////////////////////////////////////////////////////////////////////////////////wAseqnvAAANfUlEQVR4nKWZ+1/a6LbGtbXVWq32Mu3M7D3nnCQkJoEYLoEkJRBuDQ0IGC4GlBoE1Np2/v9fz7PeiO1c2mn3XoL9fLR8+6zru950be3btnXv8e5P29vTfr/R//WXVy9fbP3DB74N292eS7asz8Ab5nKLHGGfvbr/n0Ff7OwJnGk6tuVNG8Bls3gP+2SNV/d/WNz6k7nDcZxjqqbhdcADMAuNwyExG43t+5s/hNvjBGnJc5IaBboRVpjAxA15TX4Tcbq9/t28x09USeC0mSSIzTB0u43hMJtIJG4S5HUuFtmYzuQnj78Lt7kjSAqX5J2ZqspdrxN2xrlcghmAQwLmGFF3+J3v8Ht9TxIUTZMk2TDlbgdWGWcTUDiIiblbkY1pZPL83j+J3NpVFIVXNFW0fQpeJTMe12vkcKKQSn1GDoeVTncucUnp25Hc3OdEUeE0u9kMfLdbydTr9VqtlEjglWLAuzj2O6Eu8Lzg/PQNtzf3k7wCoNoMggC8eq1Uy5aypUIhcQeMkUyhRUBN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"
+            alt=" photo Natalia Sus"
+            width="80"
+            height="80"
+            class="review-img"
+          />
+          <div class="review-block">
+            <h3 class="review-name">Natalia Sus</h3>
+            <p class="review-text">
+              The chocolate assortment was delicious. Both dark and milk
+              chocolate pieces were smooth and just right on the sweetness
+              level.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img
+            srcset="/fson-83-project-10/assets/danilo-nottingham@2x-ce735c15.png 2x"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFEAAABQCAMAAABWDWmhAAAAWlBMVEVHcEwjIyMBAQEHBwcFBQUREREZGRkaGhoJCQkSEhIODg5ubm4VFRUvLy9hYWEcHBwlJSU6Ojp+fn5HR0dVVVWNjY2YmJi2trasrKyhoaG/v7/IyMjQ0NDc3Ny2PNHYAAAACnRSTlMA1///2rlDbYglaDlExgAACUBJREFUeJylWQdD48wOBG9Cku3NLQ7//2++Ga2dRij3vb0DDkjGKqORtPf29ss5HY773c65EOP7fn88nH57wy9oe93hKG1dchEnpZL8f0Y97lTXjgYijHSplGp8CXr3H0A/9jBtBVSKVtpYa6nelGA1frP/+Ge8x6NtqNmXkhwAtTxr/3c7T1c8pVY7dQyp731KQVuYq9tPj3/EPOibaddIWh2i7mzUOEqvr0A8/8nAu6Pop1I22tu37Xm/u/6xewG4WhRieAoGzu4XyMO3eMqGmBo7NxPbN92Pnh9fANmgGDwbQ3E6qJvPG2J3/MHCePdw3VwLiTSs3idXCxIEC+2VqAgFv34LeQA5whZ0Sx6zWGo/DH3OuZ/7XFxweuMOHoq0dz9AHlFq8DE0O/hZhdIv52VZzudxGsd57k31Wm9ew43tny8hP7SOkfRth6FLw+XzArxxuVw+Pz+X2Rgz+EJSMiTadhu6fpGekyY9JJDMBBHdME7TPPTzMI8jjczJlzwPqEbHtAuilahq+5VE5CHc3vgR4b/ppwFW+Tz0w0yvTXCx5vm8nHsTgwIJUJSBrLfd7ksQhRfR2cZf6GEaljn32eNkY/IwD0PF+53pz5dl7FNUVoWIuPOd+HgK5Qm/1ASKSrkUnCswzMjpM6wsicoY8Ps0TMjT3PvYkaN4BguJH4/ytoN90Sq6HaHWLgFp8DC0QGS9ryXhRFRNjCZnZLzva7D4VishEz8e/D6sLlsIv3Mu5SEbvM/BJTQCeQSRod8kVSx4RjYx1WRvldPdl+Npx98ox1aSCJoHQALRIvYAdTS2GoTSJJK1wIN+AF5Yyd5Ir+/SogQxOMA5cjIaWEELwKEocBW5Gc8TRNcK8Qfor71q0FqXt+TsWKHMGIyB6qMCi4fBqnVBumtyP0zLMs65BnLQGfzM3eqxfQnXKF5/GhAzvEzZUotUOGoSLqKo+3kCaZDkXIKi9sJvOGIfhCoeriZeDyyzDGhGDKkDyK8nHhl+vhByMA6ArmYwNedwL3wq7de8SCSE+mgkEIqQp9FHKldIIQEQeABEcaPGp74gttIXwfx7xE4X1WpRZJaSz1KFm7FOI5PKFh2iya0EBRGQ44BIxpKiLwmCeW+jTWtudk2ZAimuyZWEKjGJGUqwA/IIE6dRUFEuPc0PoUDR1T0gCJ30rhWgWsWToohugldXUyEVKjLLnsSZZ3Cx4gEQIuSYxI9JPXQHhKJoJZmmWK9P06s+BpAodCp5iiG+Q2J7U9rcYzzMDw51qW68AUB0HmLEbB/JKhiICFJoqeIkNRIFDiVWdkqVXEFxo8RRnZh8AmvzwWfEvOL9DOQ+CCJKOrAjWIYSlknuCpUioQr9PNHG6ApEyVPDUnHqHhHEKHj/OxBF37ZIykGZCCs0uiBKCBLmzHjOXpzOec5JQddKerCx61KBTQmJCdvQqRsuW3NNQRAN57uKMyzLRPU1GQ1i9pwni3tCxOOjdic0LMkItViLnbZFkj8FdQzgUIbTckE7hIzPINBkgoaqPCFqiB80++PtQ7gpEbTSr4REeBpqDT0aKOjTRGSPbSwfe7Rt5x5rulNVnnAQmVBiIY1rbRptkF9DHkBrYOZ+YgnOcyvFcXaBw8JDZjrrhU2HVoOqtdPQBmLSn5MnEdleQR3BHjM1kpoWbYlWPyIGJ1+O6/CkeLR8lm+ADY6j13BC8VQFJAkNBg33PI6DS9U9ASoXHxBJfoFTDd5ivnAUMqKg4Tu0ljzPAO9h9pDZaZ/CWPQTYrN0TZukJ4XC7urZCklEOD7kaoDYD+dzejLRlm5FfDWDSjVGOAoCYtAzWboCg4oePkE0MijZ3QsFVbr943BDvL1AaK4CWz8aKgqnSO/CX2oRELPk+QFRl5VMjY9XTHVFxL/AYRYJJAp5medlGryGCoGg5tFjhkltcf1oPeFm22ZhSz+bqk+6DtMn5r5zNjPbal8f/FXsKXF1mn3h1iGVrD5626lQkZAaI76bfu0NAxHdEyBGs3DXYG+dsI3eagWUKZLSKEf664jaBtuNvdfa5nUjY2f3bw/7QeNjY3lTpDbusGNzBBBE2ByviVw/h7j2gHB8e7tP9paZ60u7WOqK2Fo2GJl9dteVZt3nYjNRxTY9Pzr9eBRnlLy6jBEfkzg4Hm2MV1oIYgO2oTvdjxRKfwEkhQg5iIFo/6Cnnya0cdue3mihW5EDfXebAL470rzAoZ79VQaJYRyhZKHNICQGa0wAr+vX6UdEXzFVuta42RUxwYzoYU33IKwgHEp283DdGF7tvzdEQgZoNibLmLyhUBo0qZW70OhVsXi2wfk27X09iaY5GabRxb1hitAVItVehFo8bolRapv2TusS81T8zUZOu0kGAfBISIlRt0hrb3ONviLezfbHbxFVMi2Asr7SQiKOU20tSZoJJ5QvC6d+Yd0doi+N6K0QMZ+Nl4uRkRXrrTQ6Qby/Djh8h9ilJuNV1ELqUEY+LJ5LX9mDWzDltQ/b5u5VDEmJyhFe1Icb9iQLJ86CVfYzF46ZWq1ZfdwMP7rrYnsHpxMaYWs13sg0PstwivKBXi7oZ1CmsrXZp+31+MVG9KL5PIuJRvoBG6OgSolfPn3bdPBzdyuX2zk938pgouAYLw6z2UgkzbY2UDTkqk/Kvvfh6za8knI72tbzMk4DEf2WGjFzk6Ezx8rEusTD+tm/uPa5a7NYJnuMN9Ms7bBBrrq7CuWy1HYZmWQc9OblTd9Vg2zyiDtHqBXRC2LOGyJSY1CXybViwvnmFunYtZkHPvK6YxbEzUiR8mt36CWIwHSSnm+vpY6kTGHR9bzzmIcbZMNlGGljs9A1xJh+uOc6qlANry0Tt6J5Xv0mheQThzWwx7TFnidC5368ODuAsYnLTJLakFDm5q1ZywaLIbqCE0heF/8MCBJVccUGv15F0fWe0etbVmYD/YVlq5Hx/df73NMx8WLBBlQMKCl3SIOshhLWyq0HkHG180+XuYd3vBryFz3nuxZO6uI05SIrnlxdMNnup5w8mkkDAu8ooC6cnHmwxHNuoXpzcKKB/3ArftozVm0Do4d0UsuVH/BWr92/3ogfYUjbRbaZX9YoK3+A+I94Yudhp1comcv5h3DEff9j/F6A7qUwZbnTzUYb9v/3/38c9/udBHT3/pf/Tfkfbj3appzDTTUAAAAASUVORK5CYII="
+            alt=" photo Danilo Nottinghan"
+            width="80"
+            height="80"
+            class="review-img"
+          />
+          <div class="review-block">
+            <h3 class="review-name">Danilo Nottingham</h3>
+            <p class="review-text">
+              This is delicious. It so rich and flavorful you don’t need to use
+              as many. I love topping an apple with almond butter and these
+              chips for a snack.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img
+            srcset="/fson-83-project-10/assets/irina-tydnyuk@2x-1079eb3f.png 2x"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAMAAAC5zwKfAAABcVBMVEVHcEy5xb+UqKKOoZm8rJ28wLivubKonI6qraSKkImfpJuptq+dpZuis62KoZtmeHCtwb2lvbodHRm6urEcHRkQFBBxfHC8rZ4SFRIcHBhbamLfyby8x8EJERAMFRUFDQ0bHRkwKiMgIRwlJB+MqqSIp6EDCgoVGBYrKCGQrqmvwr2uu7Wqv7uxv7iou7a6xL6lt7LAr6DHtqhFNiy0xcDDsqRLOzCGo502LiaAoJt9nJa7q5x5mJM7KB/LuauftK/TwbRHLCHPvK91lI5CMSaTVj9mOypPMSSITziwpJXVyLyXrqdaNSatZEpaPzLhzcG0qZovIBmcsKqQnJOKi4DbxbhfbmZzhn17RzOVs65sUkOgXURndmy5blJtjYdwQS+CgHJ1a11tf3WRbVu7tKjUgmOclYn6mnnBvLGip5yusqiohXFfZlt7WkleU0qdubTliWnIeFv4porjlHc4NzHFmoateGH9vqdHSULQr55HcEzjP8WfAAAAe3RSTlMA3f5H2FZ6/iAQY6qP2tuPv+dMlH/c3++jysqv/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wDjecbRAAAMPUlEQVR4nKXZiVva2BYAcKpW6tJl2mlnU0wAhRZbSBTMmIIhDQlgwiKrQcqO7BW32v/+nXMTENvX1r53EXW+b/rrOeeeu4RaLD8eSw8XV5799ts2jmfPVhbnl37yB36MvTCk7Tfbb8jYhdeDlYf/Gzq/YmomuG2Ib3ZhrDz85eAWf3u3vf1uCt6OXSLuPnj46Bc5HCa2PYMZHCEX7+0tPza4d3fqh+CMt7a79uB+iT965nv37hPhPNtv0dl+8xaH563H88ao4RoBd9ee3SPvxQOf79Mk37cAwttzNJf5UCgU8oNC17O7612DL2N4fxbk0uqB75PPZ+b7dtsILZO/uaTdDju8LvNHu17kMEAcL36c7uMD4HxGCU0OvBu33e12UJTd7nDTo553d21mPPhB2uAdHJgeltBjeJd28OzAgcdx0qi3tnY/ET0fhPgOSM/2NL5LO+XgHOC5aToo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"
+            alt=" photo Irina Tydnyuk"
+            width="80"
+            height="80"
+            class="review-img"
+          />
+          <div class="review-block">
+            <h3 class="review-name">Irina Tydnyuk</h3>
+            <p class="review-text">
+              This is simply the best chocolate around, and I'm just thrilled to
+              support a local company! Best local chocolate - world class :)
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
     </div>
+    <button type="button" class="js-open-modal review-btn" data-modal="4">
+      Leave a review
+    </button>
+  </div>
 </section>
-
-
 
 <!-- Review modal -->
 
 <div class="modal" data-modal="4">
-  <svg class=" modal-close-review js-modal-close"
-  width="14px"
-  height="14px"
-  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
-    <p class="modal-review-title">LEAVE A REVIEW ABOUT<span class="modal-review-title-color"> OUR CHOCOLATE</span></p>
+  <svg
+    class="modal-close-review js-modal-close"
+    width="14px"
+    height="14px"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
+    />
+  </svg>
+  <p class="modal-review-title">
+    LEAVE A REVIEW ABOUT<span class="modal-review-title-color">
+      OUR CHOCOLATE</span
+    >
+  </p>
   <form action="#">
     <div class="form-field-review">
-        <input type="text"
+      <input
+        type="text"
         class="form-input-review"
         name="user-name"
         id="user-name"
-        placeholder="Name">
-  </div>
-  <div class="form-field-review">
-    <input type="email"
-    class="form-input-review"
-    name="user-emeil"
-    id="user-emeil"
-    placeholder="Enter your email">
-</div>
-<div class="form-field-review">
-  <div  class ="modal-review-wrap">
-    <input type="tell"
-  class="form-input-review-phone"
-  name="user-tel"
-  id="user-tel"  
-  placeholder="Phone number">
-      <div class="icon-code">
-      <svg class="icon-review">
-    <use href="/fson-83-project-10/assets/sprite-bdf9d9de.svg#icon-flag"
-    width="24"
-    height="24"></use>
-  </svg> 
-  <div class="code-review" > <span class="code-color">+380</span>
-  </div> 
-</div>
-</div>
-  </div>
+        placeholder="Name"
+      />
+    </div>
+    <div class="form-field-review">
+      <input
+        type="email"
+        class="form-input-review"
+        name="user-emeil"
+        id="user-emeil"
+        placeholder="Enter your email"
+      />
+    </div>
+    <div class="form-field-review">
+      <div class="modal-review-wrap">
+        <input
+          type="tell"
+          class="form-input-review-phone"
+          name="user-tel"
+          id="user-tel"
+          placeholder="Phone number"
+        />
+        <div class="icon-code">
+          <svg class="icon-review">
+            <use href="/fson-83-project-10/assets/sprite-bdf9d9de.svg#icon-flag" width="24" height="24"></use>
+          </svg>
+          <div class="code-review"><span class="code-color">+380</span></div>
+        </div>
+      </div>
+    </div>
 
-<div class="form-input-review-text">
-  <textarea 
-  name="user-text"
-  id="user-text"
-  class="form-text-review"
-  placeholder="Enter text">
-</textarea>
-</div>
+    <div class="form-input-review-text">
+      <textarea
+        name="user-text"
+        id="user-text"
+        class="form-text-review"
+        placeholder="Enter text"
+      ></textarea>
+    </div>
     <button type="submit" class="send-review-btn">Send</button>
   </form>
 </div>
 
-
-                  <!-- Подложка -->
+<!-- Подложка -->
 <div class="overlay js-overlay-modal"></div>
+
 
       <!-- Анна Юрьевна -->
       <section class="container subscribe">
