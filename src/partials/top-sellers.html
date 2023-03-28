@@ -5,86 +5,196 @@
   <div class="top-sellers">
     <ul class="top-sellers-list top-sellers-list-img">
       <li class="">
-        <img
-          class="top-sellers-img"
-          srcset="/src/img/top-sellers/chocolate-ingredients-mobile.jpg 1x, /src/img/top-sellers/chocolate-ingredients-mobile@2x.jpg 2x"
-          src="/src/img/top-sellers/chocolate-ingredients-mobile.jpg"
-          alt="chocolate bar with nuts"
-          width="335"
-        />
-        
+        <picture>
+          <source
+            srcset="
+              /img/top-sellers/chocolate-ingredients-desktop.jpg    1x,
+              /img/top-sellers/chocolate-ingredients-desktop@2x.jpg 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              /img/top-sellers/chocolate-ingredients-tablet.jpg    1x,
+              /img/top-sellers/chocolate-ingredients-tablet@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              /img/top-sellers/chocolate-ingredients-mobile.jpg    1x,
+              /img/top-sellers/chocolate-ingredients-mobile@2x.jpg 2x
+            "
+            media="(min-width: 375px)"
+          />
+          <img
+            src="/img/top-sellers/chocolate-ingredients-mobile.jpg"
+            alt="chocolate-ingredients"
+            class="top-sellers-image"
+          />
+        </picture>
       </li>
       <li class="">
-        <img
-          class="top-sellers-img"
-          srcset="
-            /src/img/top-sellers/milk-mint-chocolate-mobile.jpg 1x,
-            /src/img/top-sellers/milk-mint-chocolate-mobile@2x.jpg 2x
-          "
-          src="/src/img/top-sellers/milk-mint-chocolate-mobile.jpg"
-          alt="chocolate bar with mint"
-          width="335"
-        />
-       
+        <picture>
+          <source
+            srcset="
+              /img/top-sellers/milk-mint-chocolate-desktop.jpg    1x,
+              /img/top-sellers/milk-mint-chocolate-desktop@2x.jpg 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              /img/top-sellers/milk-mint-chocolate-tablet.jpg    1x,
+              /img/top-sellers/milk-mint-chocolate-tablet@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              /img/top-sellers/milk-mint-chocolate-mobile.jpg    1x,
+              /img/top-sellers/milk-mint-chocolate-mobile@2x.jpg 2x
+            "
+            media="(min-width: 375px)"
+          />
+          <img
+            src="/img/top-sellers/milk-mint-chocolate-mobile.jpg"
+            alt="jenga-chocolate"
+            class="top-sellers-image"
+          />
+        </picture>
       </li>
-     
+      <li class="">
+        <picture>
+          <source
+            srcset="
+              /img/top-sellers/jenga-chocolate-desktop.jpg    1x,
+              /img/top-sellers/jenga-chocolate-desktop@2x.jpg 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              /img/top-sellers/jenga-chocolate-tablet.jpg    1x,
+              /img/top-sellers/jenga-chocolate-tablet@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              /img/top-sellers/jenga-chocolate-mobile.jpg    1x,
+              /img/top-sellers/jenga-chocolate-mobile@2x.jpg 2x
+            "
+            media="(min-width: 375px)"
+          />
+          <img
+            src="/img/top-sellers/jenga-chocolate-mobile.jpg"
+            alt="jenga-chocolate"
+            class="top-sellers-image"
+          />
+        </picture>
+      </li>
     </ul>
     <p class="top-sellers-quotation">
-      Crazy enough chocolate originates from a bean just like the coffee
-      bean called Cacao. Cacao has been around for thousands of years and
-      was first discovered by the Native American tribe called the Mayans.
+      Crazy enough chocolate originates from a bean just like the coffee bean
+      called Cacao. Cacao has been around for thousands of years and was first
+      discovered by the Native American tribe called the Mayans.
     </p>
-    <div class="div-button-buy-now ">
-    <button class="button-buy-now js-open-modal" type="button" >Buy now</button>
-  </div>
+    <div class="div-button-buy-now">
+      <button class="button-buy-now js-open-modal" type="button">
+        Buy now
+      </button>
+    </div>
   </div>
 </section>
-<div class="backdrop is-hidden" >
+<div class="backdrop is-hidden">
   <div class="modal" data-modal>
-    <button class="modal-close js-modal-close" type="button" >
+    <button class="modal-close js-modal-close" type="button">
       <svg class="modal-close-icon" height="24" width="24">
         <use href="/src/img/sprite.svg#x-close-icon"></use>
       </svg>
     </button>
-    <p class="modal-title-top-sellers">Buy <span class="second-part-modal-title-top-sellers"> now</span> </p>
+    <p class="modal-title-top-sellers">
+      Buy <span class="second-part-modal-title-top-sellers"> now</span>
+    </p>
     <div class="modal-chocolate-img">
-        <img class="modal-img"
+      <img
+        class="modal-img"
         src="/src/img/top-sellers/modal_mob_sec_top_sellers_chocolate_bar_kinder.jpg"
         alt="chocolate-bar-kinder"
-        width="167"/>
-        <div class="div-button-modal-img">
-          <button class="button-modal-img" type="button">100g</button>
+        width="167"
+      />
+      <div class="div-button-modal-img">
+        <button class="button-modal-img" type="button">100g</button>
       </div>
     </div>
     <form class="form-modal" autocomplete="off" novalidate>
       <div class="contacts-form-personal-information">
-        <label class="label-form personal-information" for="user-name">Personal information</label>
-        <input class="input-form input-form-name" id="user-name" type="text" name="user-name" placeholder="Name" pattern="[A-Za-z]"/>
-        <input class="input-form input-form-surname" id="user-surname" type="text" name="user-surname" placeholder="Surname" pattern="[A-Za-z]" />
+        <label class="label-form personal-information" for="user-name"
+          >Personal information</label
+        >
+        <input
+          class="input-form input-form-name"
+          id="user-name"
+          type="text"
+          name="user-name"
+          placeholder="Name"
+          pattern="[A-Za-z]"
+        />
+        <input
+          class="input-form input-form-surname"
+          id="user-surname"
+          type="text"
+          name="user-surname"
+          placeholder="Surname"
+          pattern="[A-Za-z]"
+        />
       </div>
- 
+
       <div class="contacts-form-email">
         <label class="label-form" for="mail">Email</label>
-        <input class="input-form input-form-email" id="mail" type="email" name="user-mail" placeholder="Enter your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" />
-       
+        <input
+          class="input-form input-form-email"
+          id="mail"
+          type="email"
+          name="user-mail"
+          placeholder="Enter your email"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+        />
       </div>
       <div class="div-phone-number">
         <label class="label-form" for="phone-code">Phone number</label>
-        <input class="input-form input-form-phone" id="phone-code" type="tel" name="phone" placeholder="Phone number" pattern="{7}" />
+        <input
+          class="input-form input-form-phone"
+          id="phone-code"
+          type="tel"
+          name="phone"
+          placeholder="Phone number"
+          pattern="{7}"
+        />
         <svg class="form-icon-flag" height="18" width="24">
           <use href="/src/img/sprite.svg#icon-flag"></use>
         </svg>
-        
       </div>
       <div class="contacts-form-card-number">
-        <label class="label-form label-form-card-number" for="card-number">Card number</label>
-        <input class="input-form input-form-card-number" id="card-number" type="number" name="card number" placeholder="Enter card"/>
+        <label class="label-form label-form-card-number" for="card-number"
+          >Card number</label
+        >
+        <input
+          class="input-form input-form-card-number"
+          id="card-number"
+          type="number"
+          name="card number"
+          placeholder="Enter card"
+        />
         <svg class="form-icon-mastercard" height="30" width="44">
           <use href="/src/img/sprite.svg#icon-mastercard"></use>
         </svg>
       </div>
       <div class="contacts-form">
-        <label class="label-form label-form-comment" for="comment">Comment</label>
+        <label class="label-form label-form-comment" for="comment"
+          >Comment</label
+        >
         <textarea
           class="comment"
           id="comment"
@@ -93,7 +203,9 @@
         ></textarea>
       </div>
       <div class="button-submit">
-        <button class="submit-button-top-sellers js-open-modal" type="submit" >Submit</button>
+        <button class="submit-button-top-sellers js-open-modal" type="submit">
+          Submit
+        </button>
       </div>
     </form>
   </div>
@@ -104,13 +216,21 @@
       </svg>
     </button>
     <div class="text-modal-thank-you">
-    <h2 class="title-modal-thank-you">thank you!</h2>
-    <p class="quotation-modal-thank-you">We are glad that you ordered our chocolate and we are giving you a 20% discount on all our products.</p>
-    <img class="modal-thank-you-img" 
-    srcset="/src/img/top-sellers/modal-bar-chocolate.jpg 1x, /src/img/top-sellers/modal-bar-chocolate@2x.jpg 2x"
-    src="/src/img/top-sellers/modal-bar-chocolate.jpg"
-    alt="bar of chocolate"
-    width="296"/>
+      <h2 class="title-modal-thank-you">thank you!</h2>
+      <p class="quotation-modal-thank-you">
+        We are glad that you ordered our chocolate and we are giving you a 20%
+        discount on all our products.
+      </p>
+      <img
+        class="modal-thank-you-img"
+        srcset="
+          /src/img/top-sellers/modal-bar-chocolate.jpg    1x,
+          /src/img/top-sellers/modal-bar-chocolate@2x.jpg 2x
+        "
+        src="/src/img/top-sellers/modal-bar-chocolate.jpg"
+        alt="bar of chocolate"
+        width="296"
+      />
+    </div>
   </div>
-</div>
 </div>
