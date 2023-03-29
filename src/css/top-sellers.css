@@ -99,6 +99,7 @@
 }
 
 .modal.modal-buy-now {
+  position: relative;
   background-color: #FAFAFA;
   border-radius: 15px;
   padding-top: 32px;
