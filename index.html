@@ -26,7 +26,7 @@
     />
     
     <script type="module" crossorigin src="/fson-83-project-10/assets/index-d934cc92.js"></script>
-    <link rel="stylesheet" href="/fson-83-project-10/assets/index-798ec6d3.css">
+    <link rel="stylesheet" href="/fson-83-project-10/assets/index-cd04c1e6.css">
   </head>
   <body>
     <header>
@@ -955,7 +955,7 @@
         />
       </div>
 
-      <div class="contacts-form-email">
+      <div class=" contacts-form contacts-form-email">
         <label class="label-form" for="mail">Email</label>
         <input
           class="input-form input-form-email"
@@ -967,26 +967,23 @@
           required
         />
       </div>
-      <div class="div-phone-number">
-        <label class="label-form" for="phone-code">Phone number</label>
-        <input
-          class="input-form input-form-phone"
-          id="phone-code"
-          type="tel"
-          name="phone"
-          placeholder="Phone number"
-          pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}"
-          required
-        />
-
-        <svg class="form-icon-flag" height="18" width="24">
-          <use href="/fson-83-project-10/assets/sprite-9fd6ec16.svg#flag-icon"></use>
-        </svg>
-      </div>
-      <div class="contacts-form-card-number">
+      <div class="contacts-form form-field-review">
+        <label class="label-form" for="user-tel">Phone number</label>
+        <div class="modal-review-wrap top-sellers">
+          <input type="tel" class="form-input-review-phone" name="user-tel" id="user-tel" placeholder="Phone number">
+          <div class="icon-code">
+            <svg class="icon-review">
+              <use href="/fson-83-project-10/assets/sprite-9fd6ec16.svg#icon-flag" width="24" height="24"></use>
+            </svg>
+            <div class="code-review"><span class="code-color">+380</span></div>
+          </div>
+        </div>
+      </div>     
+      <div class="contacts-form contacts-form-card">
         <label class="label-form label-form-card-number" for="card-number"
           >Card number</label
         >
+        <div class="contacts-form-card-number">
         <input
           class="input-form input-form-card-number"
           id="card-number"
@@ -995,9 +992,12 @@
           placeholder="Enter card"
           required
         />
+      </div>
+        <div>
         <svg class="form-icon-mastercard" height="30" width="44">
           <use href="/fson-83-project-10/assets/sprite-9fd6ec16.svg#mastercard-icon"></use>
         </svg>
+      </div>
       </div>
       <div class="contacts-form">
         <label class="label-form label-form-comment" for="comment"
@@ -1020,7 +1020,7 @@
         </button>
       </div>
     </form>
-  </div>
+    </div>
   <div class="modal modal-thank-you" data-modal="2">
     <button class="modal-close js-modal-close" type="button">
       <svg class="modal-close-icon" height="24" width="24">
@@ -1032,7 +1032,8 @@
       <p class="quotation-modal-thank-you">
         We are glad that you ordered our chocolate and we are giving you a 20%
         discount on all our products.
-      </p>
+      </p> 
+      </div>
       <!-- <div class="div-modal-thank-you-img">
         <img
           class="modal-thank-you-img"
@@ -1040,7 +1041,6 @@
           alt="bar of chocolate"
         />
       </div> -->
-    </div>
   </div>
 </section>
 
