@@ -126,219 +126,212 @@
           Buy now
         </button>
       </div>
-    </div>
-  </div>
-
-  <div class="modal modal-buy-now" data-modal="1">
-    <button class="modal-close js-modal-close" type="button">
-      <svg class="modal-close-icon" height="24" width="24">
-        <use href="/img/sprite.svg#x-close-icon"></use>
-      </svg>
-    </button>
-    <p class="modal-title-top-sellers">
-      Buy <span class="second-part-modal-title-top-sellers"> now</span>
-    </p>
-    <div class="div-modal-chocolate-img">
-      <ul class="list-modal-chocolate-img">
-        <li class="modal-chocolate-img">
-          <picture>
-            <source
-              srcset="
-                /img/top-sellers/modal_tab_desk_sec_top_sellers_chocolate_bar_kinder.jpg    1x,
-                /img/top-sellers/modal_tab_desk_sec_top_sellers_chocolate_bar_kinder@2x.jpg 2x
-              "
-              media="(min-width: 768px)"
-            />
-
-            <source
-              srcset="
-                /img/top-sellers/modal_mob_sec_top_sellers_chocolate_bar_kinder.jpg    1x,
-                /img/top-sellers/modal_mob_sec_top_sellers_chocolate_bar_kinder@2x.jpg 2x
-              "
-              media="(min-width: 375px)"
-            />
-
-            <img
-              class="modal-img"
-              src="/img/top-sellers/modal_mob_sec_top_sellers_chocolate_bar_kinder.jpg"
-              alt="chocolate-bar-kinder"
-              width="120"
-            />
-          </picture>
-          <div class="div-button-modal-img">
-            <button class="button-modal-img" type="button">100g</button>
-          </div>
-        </li>
-        <li class="modal-chocolate-img">
-          <picture>
-            <source
-              srcset="
-                /img/top-sellers/modal_tab_desk_sec_top_sellers_praline_chocolate_bonbon_milk.jpg    1x,
-                /img/top-sellers/modal_tab_desk_sec_top_sellers_praline_chocolate_bonbon_milk@2x.jpg 2x
-              "
-              media="(min-width: 768px)"
-            />
-
-            <source
-              srcset="
-                /img/top-sellers/modal_mob_sec_top_sellers_praline_chocolate_bonbon_milk.jpg    1x,
-                /img/top-sellers/modal_mob_sec_top_sellers_praline_chocolate_bonbon_milk@2x.jpg 2x
-              "
-              media="(min-width: 375px)"
-            />
-
-            <img
-              class="modal-img"
-              src="/img/top-sellers/modal_mob_sec_top_sellers_praline_chocolate_bonbon_milk.jpg"
-              alt="chocolate-bar-kinder"
-            />
-          </picture>
-          <div class="div-button-modal-img">
-            <button class="button-modal-img" type="button">200g</button>
-          </div>
-        </li>
-
-        <li class="modal-chocolate-img">
-          <picture>
-            <source
-              srcset="
-                /img/top-sellers/modal_desk_tab_sec_top_sellers_chocolate_dark_bar.jpg    1x,
-                /img/top-sellers/modal_desk_tab_sec_top_sellers_chocolate_dark_bar@2x.jpg 2x
-              "
-              media="(min-width: 768px)"
-            />
-
-            <source
-              srcset="
-                /img/top-sellers/modal_mob_sec_top_sellers_chocolate_dark_bar.jpg    1x,
-                /img/top-sellers/modal_mob_sec_top_sellers_chocolate_dark_bar@2x.jpg 2x
-              "
-              media="(min-width: 375px)"
-            />
-
-            <img
-              class="modal-img"
-              src="/img/top-sellers/modal_mob_sec_top_sellers_chocolate_dark_bar.jpg"
-              alt="chocolate-bar-kinder"
-              width="167"
-            />
-          </picture>
-          <div class="div-button-modal-img">
-            <button class="button-modal-img" type="button">300g</button>
-          </div>
-        </li>
-      </ul>
-    </div>
-    <form class="form-modal" autocomplete="off" novalidate>
-      <div class="contacts-form-personal-information">
-        <label class="label-form personal-information" for="user-name"
-          >Personal information</label
-        >
-        <input
-          class="input-form input-form-name"
-          id="user-name"
-          type="text"
-          name="user-name"
-          placeholder="Name"
-          pattern="[A-Za-z]"
-          required
-        />
-        <input
-          class="input-form input-form-surname"
-          id="user-surname"
-          type="text"
-          name="user-surname"
-          placeholder="Surname"
-          pattern="[A-Za-z]"
-          required
-        />
-      </div>
-
-      <div class=" contacts-form contacts-form-email">
-        <label class="label-form" for="mail">Email</label>
-        <input
-          class="input-form input-form-email"
-          id="mail"
-          type="email"
-          name="user-mail"
-          placeholder="Enter your email"
-          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-          required
-        />
-      </div>
-      <div class="contacts-form form-field-review">
-        <label class="label-form" for="user-tel">Phone number</label>
-        <div class="modal-review-wrap top-sellers">
-          <input type="tel" class="form-input-review-phone" name="user-tel" id="user-tel" placeholder="Phone number">
-          <div class="icon-code">
-            <svg class="icon-review">
-              <use href="/img/sprite.svg#icon-flag" width="24" height="24"></use>
-            </svg>
-            <div class="code-review"><span class="code-color">+380</span></div>
-          </div>
-        </div>
-      </div>     
-      <div class="contacts-form contacts-form-card">
-        <label class="label-form label-form-card-number" for="card-number"
-          >Card number</label
-        >
-        <div class="contacts-form-card-number">
-        <input
-          class="input-form input-form-card-number"
-          id="card-number"
-          type="number"
-          name="card number"
-          placeholder="Enter card"
-          required
-        />
-      </div>
-        <div>
-        <svg class="form-icon-mastercard" height="30" width="44">
-          <use href="/img/sprite.svg#mastercard-icon"></use>
-        </svg>
-      </div>
-      </div>
-      <div class="contacts-form">
-        <label class="label-form label-form-comment" for="comment"
-          >Comment</label
-        >
-        <textarea
-          class="comment"
-          id="comment"
-          name="user-comment"
-          placeholder="Enter text"
-        ></textarea>
-      </div>
-      <div class="button-submit">
-        <button
-          class="submit-button-top-sellers js-open-modal"
-          type="submit"
-          data-modal="2"
-        >
-          Submit
-        </button>
-      </div>
-    </form>
-    </div>
-  <div class="modal modal-thank-you" data-modal="2">
-    <button class="modal-close js-modal-close" type="button">
-      <svg class="modal-close-icon" height="24" width="24">
-        <use href="/img/sprite.svg#x-close-icon-orange"></use>
-      </svg>
-    </button>
-    <div class="text-modal-thank-you">
-      <h2 class="title-modal-thank-you">thank you!</h2>
-      <p class="quotation-modal-thank-you">
-        We are glad that you ordered our chocolate and we are giving you a 20%
-        discount on all our products.
-      </p> 
-      </div>
-      <!-- <div class="div-modal-thank-you-img">
-        <img
-          class="modal-thank-you-img"
-          src="/img/top-sellers/modal-bar-chocolate.png"
-          alt="bar of chocolate"
-        />
-      </div> -->
+    </div> 
   </div>
 </section>
+<div class="modal modal-thank-you" data-modal="2">
+  <button class="modal-close js-modal-close" type="button">
+    <svg class="modal-close-icon" height="24" width="24">
+      <use href="/img/sprite.svg#x-close-icon-orange"></use>
+    </svg>
+  </button>
+    
+  <div class="text-modal-thank-you">
+    <h2 class="title-modal-thank-you">thank you!</h2>
+    <p class="quotation-modal-thank-you">
+      We are glad that you ordered our chocolate and we are giving you a 20%
+      discount on all our products.
+    </p> 
+    </div>
+</div>
+<div class="modal modal-buy-now" data-modal="1">
+  <button class="modal-close js-modal-close" type="button">
+    <svg class="modal-close-icon" height="24" width="24">
+      <use href="/img/sprite.svg#x-close-icon"></use>
+    </svg>
+  </button>
+  <p class="modal-title-top-sellers">
+    Buy <span class="second-part-modal-title-top-sellers"> now</span>
+  </p>
+  <div class="div-modal-chocolate-img">
+    <ul class="list-modal-chocolate-img">
+      <li class="modal-chocolate-img">
+        <picture>
+          <source
+            srcset="
+              /img/top-sellers/modal_tab_desk_sec_top_sellers_chocolate_bar_kinder.jpg    1x,
+              /img/top-sellers/modal_tab_desk_sec_top_sellers_chocolate_bar_kinder@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+
+          <source
+            srcset="
+              /img/top-sellers/modal_mob_sec_top_sellers_chocolate_bar_kinder.jpg    1x,
+              /img/top-sellers/modal_mob_sec_top_sellers_chocolate_bar_kinder@2x.jpg 2x
+            "
+            media="(min-width: 375px)"
+          />
+
+          <img
+            class="modal-img"
+            src="/img/top-sellers/modal_mob_sec_top_sellers_chocolate_bar_kinder.jpg"
+            alt="chocolate-bar-kinder"
+            width="120"
+          />
+        </picture>
+        <div class="div-button-modal-img">
+          <button class="button-modal-img" type="button">100g</button>
+        </div>
+      </li>
+      <li class="modal-chocolate-img">
+        <picture>
+          <source
+            srcset="
+              /img/top-sellers/modal_tab_desk_sec_top_sellers_praline_chocolate_bonbon_milk.jpg    1x,
+              /img/top-sellers/modal_tab_desk_sec_top_sellers_praline_chocolate_bonbon_milk@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+
+          <source
+            srcset="
+              /img/top-sellers/modal_mob_sec_top_sellers_praline_chocolate_bonbon_milk.jpg    1x,
+              /img/top-sellers/modal_mob_sec_top_sellers_praline_chocolate_bonbon_milk@2x.jpg 2x
+            "
+            media="(min-width: 375px)"
+          />
+
+          <img
+            class="modal-img"
+            src="/img/top-sellers/modal_mob_sec_top_sellers_praline_chocolate_bonbon_milk.jpg"
+            alt="chocolate-bar-kinder"
+          />
+        </picture>
+        <div class="div-button-modal-img">
+          <button class="button-modal-img" type="button">200g</button>
+        </div>
+      </li>
+
+      <li class="modal-chocolate-img">
+        <picture>
+          <source
+            srcset="
+              /img/top-sellers/modal_desk_tab_sec_top_sellers_chocolate_dark_bar.jpg    1x,
+              /img/top-sellers/modal_desk_tab_sec_top_sellers_chocolate_dark_bar@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+
+          <source
+            srcset="
+              /img/top-sellers/modal_mob_sec_top_sellers_chocolate_dark_bar.jpg    1x,
+              /img/top-sellers/modal_mob_sec_top_sellers_chocolate_dark_bar@2x.jpg 2x
+            "
+            media="(min-width: 375px)"
+          />
+
+          <img
+            class="modal-img"
+            src="/img/top-sellers/modal_mob_sec_top_sellers_chocolate_dark_bar.jpg"
+            alt="chocolate-bar-kinder"
+            width="167"
+          />
+        </picture>
+        <div class="div-button-modal-img">
+          <button class="button-modal-img" type="button">300g</button>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <form class="form-modal" autocomplete="off" novalidate>
+    <div class="contacts-form-personal-information">
+      <label class="label-form personal-information" for="user-name"
+        >Personal information</label
+      >
+      <input
+        class="input-form input-form-name"
+        id="user-name"
+        type="text"
+        name="user-name"
+        placeholder="Name"
+        pattern="[A-Za-z]"
+        required
+      />
+      <input
+        class="input-form input-form-surname"
+        id="user-surname"
+        type="text"
+        name="user-surname"
+        placeholder="Surname"
+        pattern="[A-Za-z]"
+        required
+      />
+    </div>
+
+    <div class=" contacts-form contacts-form-email">
+      <label class="label-form" for="mail">Email</label>
+      <input
+        class="input-form input-form-email"
+        id="mail"
+        type="email"
+        name="user-mail"
+        placeholder="Enter your email"
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+        required
+      />
+    </div>
+    <div class="contacts-form form-field-review">
+      <label class="label-form" for="user-tel">Phone number</label>
+      <div class="modal-review-wrap top-sellers">
+        <input type="tel" class="form-input-review-phone" name="user-tel" id="user-tel" placeholder="Phone number">
+        <div class="icon-code">
+          <svg class="icon-review">
+            <use href="/img/sprite.svg#icon-flag" width="24" height="24"></use>
+          </svg>
+          <div class="code-review"><span class="code-color">+380</span></div>
+        </div>
+      </div>
+    </div>     
+    <div class="contacts-form contacts-form-card">
+      <label class="label-form label-form-card-number" for="card-number"
+        >Card number</label
+      >
+      <div class="contacts-form-card-number">
+      <input
+        class="input-form input-form-card-number"
+        id="card-number"
+        type="number"
+        name="card number"
+        placeholder="Enter card"
+        required
+      />
+    </div>
+      <div>
+      <svg class="form-icon-mastercard" height="30" width="44">
+        <use href="/img/sprite.svg#mastercard-icon"></use>
+      </svg>
+    </div>
+    </div>
+    <div class="contacts-form">
+      <label class="label-form label-form-comment" for="comment"
+        >Comment</label
+      >
+      <textarea
+        class="comment"
+        id="comment"
+        name="user-comment"
+        placeholder="Enter text"
+      ></textarea>
+    </div>
+    <div class="button-submit">
+      <button
+        class="submit-button-top-sellers js-open-modal js-modal-close"
+        type="submit"
+        data-modal="2"
+      >
+        Submit
+      </button>
+    </div>
+  </form>
+  </div>

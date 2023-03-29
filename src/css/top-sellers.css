@@ -282,6 +282,14 @@
   padding-right: 24px;
   width: 100%;
   max-width: 311px;
+  background-image: url(/img/top-sellers/modal_mob_chocolate_bar.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+@media (min-device-pixel-ratio: 2){
+  .modal.modal-thank-you{
+    background-image: url(/img/top-sellers/modal_mob_chocolate_bar@2x.png);
+  }
 }
 @media (min-width: 768px) {
   .modal.modal-thank-you {
@@ -291,8 +299,14 @@
     padding-right: 44px;
     padding-top: 154px;
     padding-bottom: 154px;
+    background-image: url(/img/top-sellers/modal_desk_tab_chocolate_bar.png);
   }
 }
+@media (min-width: 768px) and (min-device-pixel-ratio: 2){
+  .modal.modal-thank-you{
+  background-image: url(/img/top-sellers/modal_tab_desk_sec_top_sellers_chocolate_bar_kinder@2x.jpg);
+}}
+
 .text-modal-thank-you {
   color: var(--color-white);
 }
