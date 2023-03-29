@@ -2,7 +2,7 @@
   display: block;
   justify-content: center;
   align-items: center;
-  background: #fafafa;
+  margin-bottom: 128px;
 }
 
 .about-section-header {
@@ -43,7 +43,7 @@
 
 
 .about-section-description {
-  width: 600px;
+  max-width: 516px;
   height: 400px;
   background-color: #ffffff;
   border-radius: 15px;
