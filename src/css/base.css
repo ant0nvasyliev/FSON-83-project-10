@@ -104,4 +104,8 @@ font-family: 'Montserrat', sans-serif;
    background-color: var(--color-section-background);
 }
 
+html {
+   scroll-behavior: smooth;
+}
+
 
