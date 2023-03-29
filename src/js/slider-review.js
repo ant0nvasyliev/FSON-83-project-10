@@ -1,9 +1,9 @@
-const swiperreview = new Swiperreview('.swiperreview', {
+const swiperreview = new Swiper('.swiperreview', {
   // Optional parameters
   direction: 'horizontal',
   loop: true,
   slidesPerView: 1,
-  spaceBetween: 10,
+  spaceBetween: 0,
   // If we need pagination
   pagination: {
     el: '.swiper-pagination-review',

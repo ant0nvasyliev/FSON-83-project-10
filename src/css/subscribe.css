@@ -90,25 +90,41 @@
     width: 172px;
     height: 50px;
     border-radius: 100px;
+    border: none;
     padding: 12px 28px;
     font-weight: 600;
     font-size: 18px;
     line-height: 17.07px;
     color: var(--color-white);
+    transition: background-color, color 200ms linear;
+}
+.subscribe_button:hover, .subscribe_button:focus {
+    background: #FCF1E0;
+    color: var(--color-orange);
 }
 .subscribe-modal__form {
-    position: absolute;
+    z-index: 50;
+    padding: 0;
+    display: none;
+    width: 311px;
+    height: 350px;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: none; 
-    border-radius: 5px;
+    overflow: hidden;
+    border-radius: 10px;
     background-color: var(--color-white);
 }
 .subscribe-modal__form.active {
-    display: block;
+   display: block;
 }
-
+@media screen and (min-width: 768px) {
+    .subscribe-modal__form {
+        width: 538px;
+        height: 412px;
+    }
+        }
 .subscribe-modal {
     padding-left: 24px;
     padding-top: 32px;
@@ -132,9 +148,6 @@
     background-image: url(/img/subscribe/subscribe-modal-img-mobile.jpg);
 }
 @media screen and (min-width: 375px) {
-    .subscribe-modal__background {
-        width: 311px;
-    }
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -145,8 +158,6 @@
 }
 @media screen and (min-width: 768px) {
     .subscribe-modal__background {
-        width: 538px;
-        height: 196px;
         background-image: url(/img/subscribe/subscribe-modal-img.jpg);
     }
     @media (min-device-pixel-ratio: 2),
@@ -161,9 +172,11 @@
     position: absolute;
     width: 24px;
     height: 24px;
-    fill: var(--color-white);
+    stroke: var(--color-white);
+    background-color: rgba(255, 255, 255, 0);
     top: 15px;
     right: 14px;
+    border: none;
 }
 .subscribe-modal__title {
     text-transform: uppercase;
@@ -171,7 +184,6 @@
     font-size: 20px;
     line-height: 24px;
     letter-spacing: -0.03em;
-    margin-top: 32px;
     margin-bottom: 24px;
 }
 @media screen and (min-width: 768px) {
@@ -205,7 +217,7 @@
         }
 .subscribe-modal__submit {
     position: absolute;
-    right: 24px;
+    right: 0;
     color: var(--color-white);
     background-color: var(--color-orange);
     width: 100px;
