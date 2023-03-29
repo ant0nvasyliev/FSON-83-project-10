@@ -152,6 +152,11 @@ ul {
     .logo-first {
         width: 300;
     }
+    .footer-socials-link :hover,
+    .footer-socials-link :focus {
+        background: var(--color-orange);
+    }
+
 }
      
     @media screen and (min-width: 1200px) {
