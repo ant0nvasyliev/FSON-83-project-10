@@ -102,4 +102,6 @@ body {
 font-family: 'Montserrat', sans-serif;
    color: var(--color-black);
    background-color: var(--color-section-background);
+   scroll-behavior: smooth;
 }
+
