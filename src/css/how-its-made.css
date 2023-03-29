@@ -40,8 +40,6 @@
   position: relative;
 }
 
-
-
 .about-section-description {
   max-width: 516px;
   height: 400px;
@@ -75,9 +73,7 @@
   padding-bottom: 24px;
 }
 
-
-
-.about-section-list-text::before {
+/*.about-section-list-text::before {
   content: '';
   width: 8px;
   height: 8px;
@@ -86,7 +82,7 @@
   background-size: contain;
   margin-right: 8px;
   background-image: url('/img/how-its-made/Ellipse\ 1.jpg');
-}
+} */
 
 .hot-chocolate-img {
   border-radius: 15px;
@@ -101,7 +97,7 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   border-radius: 50%;
   padding: 11px 9px 11px 14px;
 }
@@ -110,17 +106,18 @@
   .how-its-made {
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    margin-bottom: 20px;
     justify-content: center;
     align-items: center;
   }
 
   .about-section-header {
-    padding-bottom: 30px;
+    margin-bottom: 32px;
   }
 
   .about-section-picture {
     display: flex;
+    margin-bottom: 20px;
   }
 
   .about-section-description {
@@ -139,7 +136,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px), (max-width: 1200px) {
   .how-its-made {
     display: flex;
     flex-direction: column;
@@ -150,6 +147,8 @@
 
 .about-section-description {
   margin-left: 0px;
+  max-width: 600px;
+  margin-top: 20px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -161,5 +160,6 @@
   .about-section-description {
     margin-left: 20px;
     margin-top: 0;
+    max-width: 516px;
   }
 }

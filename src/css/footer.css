@@ -5,6 +5,10 @@
     --color-white: #FFFFFF;
     --color-section-background: #E2E2E2;
 }
+ul {
+    list-style-type: none;
+}
+
 .container {
     max-width: 375px;
     padding-left: 20px;
@@ -12,52 +16,12 @@
     margin-left: auto;
     margin-right: auto;    
     }
-     
-@media screen and (min-width: 768px) {
-    .container {
-        padding-left: 32px;
-        padding-right: 32px;
-        max-width: 768px;
-    }
-    .navigation {
-        display: block;
-    }
-    .footer-menu {
-        display: block
-    }
-    }     
-    @media screen and (min-width: 1200px) {
-    .container {
-        max-width: 1200px;
-    }
-    .navigation {
-        display: flex;
-    }
-    }
-     
-
-
-
-
-ul {
-    list-style-type: none;
-}
-
 .footer-fon {
     background-color: var(--color-dark-purple);
 }
-.footer-conteiner {
-    display: flex;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-.footer-icon {
-    display: flex;
-}
-.footer-menu {
-    display: block
-}
 .logo-first {
     width: 300;
+    margin: 0;
     font-family: 'Montserrat';
     font-style: normal;
     font-family: var(--color-orange), sans-serif;
@@ -72,6 +36,36 @@ ul {
 .logo-second {
     color: var(--color-white);
 }
+.navigation {
+    display: block;    
+    text-decoration: none;
+    padding-left: 0px;
+    margin: 0;
+    padding-top: 32px;
+}
+.link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    padding-bottom: 18px;
+    align-items: center;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    display: flex;
+    color: var(--color-white);
+}
+.footer-conteiner {
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    position: relative;
+    padding-top: 32px;
+}
+.footer-p {
+    width: 300px;
+    padding-bottom: 32px;
+}
 .footer-social-media {
     font-family: 'Montserrat';
     font-style: normal;    
@@ -80,14 +74,28 @@ ul {
     line-height: 18px;
     color: var(--color-white);    
     padding-bottom: 14px;
-    text-align: center;
+    margin: 0;
+}
+.footer-socials-link {
+    width: 24px;
+    height: 24px;
+    color: var(--color-white);
+    background-color: var(--color-dark-purple);
+}
+.footer-socials-icon {
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
 }
 .page-addres {
+    padding: 0;
     font-size: 14px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--color-white);
+    margin: 0;
+    padding-bottom: 32px;
 }
 .mail {
     font-family: 'Montserrat';
@@ -99,37 +107,67 @@ ul {
     font-style: normal;
     color: var(--color-primary);
 }
-.footer-socials-link {
-    width: 24px;
-    height: 24px;
-    color: var(--color-white);
-    background-color: var(--color-dark-purple);
+.footer-icons {
+    display: flex;
 }
-.footer-socials-link:hover,
-  .footer-socials-link:focus {
-    background: var(--color-orange);
-  }
-.footer-socials-icon {
-    fill: currentColor;
-    width: 24px;
-    height: 24px;
+.footer-icon {
+    display: flex;
+    padding: 0%;
+    
 }
+.footer-icon {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    
+    
+}
+@media screen and (min-width: 768px) {
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+        max-width: 768px;
+    }
+    .navigation {
+        display: flex;
+        padding-top: 24px;      
+    }
+    .link {
+        margin-right: 24px;
+    }
+    .footer-conteiner {
+        display: flex;
+        padding-top: 50px;
+    }
+    .footer-icon {
+        position: absolute;
+        right: 0;
+        top: 50px;
+    }
+    .footer-p {
+        
+        padding-bottom: 54px;
+        padding-right: 124px;
+    }
+    .logo-first {
+        width: 300;
+    }
+    .footer-socials-link :hover,
+    .footer-socials-link :focus {
+        background: var(--color-orange);
+    }
 
-.navigation {
-    display: flex;
-    gap: 40px;
-    text-decoration: none;
 }
-.link {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    padding: 24px 0;
-    align-items: center;
-    letter-spacing: -0.02em;
-    text-decoration: none;
-    display: flex;
-    color: var(--color-white);
-}
+     
+    @media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+    .logo-first {
+        width: 300;
+    }
+    .footer-p {       
+        padding-right: 543px;
+    }
+    
+    }
