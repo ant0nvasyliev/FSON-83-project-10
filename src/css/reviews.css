@@ -58,7 +58,7 @@ margin-bottom: 32px;
     border-radius: 15px;
     padding-left: 18px;
     padding-right: 18px;
-}
+    }
 
 @media screen and (min-width: 768px)  {
     .review-block{
@@ -177,7 +177,7 @@ margin-bottom: 32px;
     transition: .3s opacity;
     transform: translate3d(0,0,0);
     z-index: 10;
-}
+    }
 
  .swiper-pagination-review-bullets{
     width: 13px;
@@ -224,7 +224,7 @@ margin-bottom: 32px;
  
 .modal-review{
     max-width: 311px;
-        padding: 32px 32px 32px 24px;
+    padding: 32px 32px 32px 24px;
     border-radius: 15px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background-color:  #FAFAFA;
@@ -376,6 +376,10 @@ margin-bottom: 32px;
 
 .form-input-review-phone::placeholder{color: rgba(64, 64, 64, 0.3);} 
 
+
+
+
+
 @media screen and (min-width:768px) {
     .form-input-review-phone{
         height: 66px;
@@ -463,16 +467,15 @@ color: var(--color-black);
     resize: none;
     outline: none;
     cursor: pointer;
-    color: var(--color-black);
 }
-.form-text-review::placeholder{ color: rgba(64, 64, 64, 0.3);}
+
+.form-text-review::placeholder {color: rgba(64, 64, 64, 0.3); }
 
 @media screen and (min-width:768px) {
     .form-text-review{
         padding: 22px 24px 93px 24px;
         font-size: 18px;
-        line-height: 1.22;
-    }}
+        line-height: 1.22;     }}
 
 .send-review-btn {
     display: flex;
@@ -540,12 +543,9 @@ color: var(--color-black);
      }
 
 
-
-
-
 .modal-close-review-feedback{
-    width: 40px;
-    height: 40px;
+    width: 28px;
+    height: 28px;
     border-radius: 50%;
     background-color: rgba(252, 241, 224, 1);
     display: flex;
@@ -556,16 +556,21 @@ color: var(--color-black);
     right: 14px;
     stroke:  rgba(241, 101, 41, 1);
     cursor: pointer;
-    padding: 8px;
-
+    padding: 3px;
+    
 }
+
+
 
 .modal-close-review-feedback:hover {filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));}
 
 @media screen and (min-width:768px) {
     .modal-close-review-feedback{
+        width: 40px;
+        height: 40px;
         top: 24px;
         right: 24px;
+        padding: 9px;
 
 }
 }
