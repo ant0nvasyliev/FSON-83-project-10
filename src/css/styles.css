@@ -4,6 +4,10 @@
   | default @import url()
   |============================
 */
+html {
+  scroll-behavior: smooth;
+}
+
 @import url('./reset.css');
 @import url('./base.css');
 @import url('./vite-promo.css');
@@ -37,5 +41,7 @@
 
 /* Олександр */
 @import url('./footer.css');
+
+
 
 
