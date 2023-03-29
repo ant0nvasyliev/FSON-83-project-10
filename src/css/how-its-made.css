@@ -3,7 +3,6 @@
   justify-content: center;
   align-items: center;
   background: #fafafa;
-  position: relative;
 }
 
 .about-section-header {
@@ -37,18 +36,11 @@
 }
 
 .about-section-picture {
-  border-radius: 15px;
-  width: 600px;
-  height: 400px;
+  max-width: 600px;
   position: relative;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
-.picture {
-  border-radius: 15px;
-}
+
 
 .about-section-description {
   width: 600px;
@@ -69,7 +61,6 @@
   font-size: 18px;
   line-height: 24px;
   padding-bottom: 28px;
-
   color: #111111;
 }
 
@@ -84,6 +75,8 @@
   padding-bottom: 24px;
 }
 
+
+
 .about-section-list-text::before {
   content: '';
   width: 8px;
@@ -92,9 +85,14 @@
   background-repeat: no-repeat;
   background-size: contain;
   margin-right: 8px;
-  background-image: url('../img/how-its-made/Ellipse\ 1.jpg');
+  background-image: url('/img/how-its-made/Ellipse\ 1.jpg');
 }
-.play-icon {
+
+.hot-chocolate-img {
+  border-radius: 15px;
+}
+
+.video-play-icon {
   align-items: center;
   justify-content: center;
   width: 44px;
@@ -102,6 +100,10 @@
   position: absolute;
   left: 50%;
   top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  padding: 11px 9px 11px 14px;
 }
 
 @media screen and (max-width: 767px) {
@@ -111,7 +113,6 @@
     gap: 60px;
     justify-content: center;
     align-items: center;
-    position: relative;
   }
 
   .about-section-header {
@@ -120,9 +121,6 @@
 
   .about-section-picture {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
   }
 
   .about-section-description {
@@ -147,10 +145,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-
-  .about-section-picture {
-    margin-bottom: 20px;
   }
 }
 
