@@ -8,7 +8,7 @@
 .about-section-header {
   text-align: center;
   margin-bottom: 50px;
-  margin-top: 128px;
+  padding-top: 128px;
 
   font-family: 'Montserrat';
   font-style: normal;
@@ -58,7 +58,7 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 24px;
-  padding-bottom: 28px;
+  margin-bottom: 28px;
   color: #111111;
 }
 
@@ -70,7 +70,7 @@
   font-size: 14px;
   line-height: 18px;
   color: #111111;
-  padding-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 /*.about-section-list-text::before {
