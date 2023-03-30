@@ -144,6 +144,7 @@
     </p>
   </div>
 </div>
+<div class="overlay js-overlay-modal"></div>
 <div class="modal modal-buy-now" data-modal="1">
   <button class="modal-close js-modal-close" type="button">
     <svg class="modal-close-icon" height="24" width="24">
@@ -244,19 +245,20 @@
       </li>
     </ul>
   </div>
-  <form class="form-modal" autocomplete="off" novalidate>
+  <form class="form-modal" autocomplete="off">
     <div class="contacts-form-personal-information">
       <label class="label-form personal-information" for="user-name"
         >Personal information</label
-      >
+        >
       <input
         class="input-form input-form-name"
         id="user-name"
         type="text"
         name="user-name"
         placeholder="Name"
-        pattern="[A-Za-z]"
-        required
+       
+        pattern="[a-zA-Zа-яА-Я]+$"
+            minlength="2"
       />
       <input
         class="input-form input-form-surname"
@@ -264,22 +266,25 @@
         type="text"
         name="user-surname"
         placeholder="Surname"
-        pattern="[A-Za-z]"
+        pattern="[a-zA-Zа-яА-Я]+$"
+            minlength="2"
         required
       />
+      
     </div>
 
     <div class="contacts-form contacts-form-email">
-      <label class="label-form" for="mail">Email</label>
+      <label class="label-form" for="email">Email</label>
       <input
         class="input-form input-form-email"
-        id="mail"
+        id="email"
         type="email"
-        name="user-mail"
+        name="email"
         placeholder="Enter your email"
         pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-        required
+       
       />
+
     </div>
     <div class="contacts-form form-field-review">
       <label class="label-form" for="user-tel">Phone number</label>
@@ -290,6 +295,8 @@
           name="user-tel"
           id="user-tel"
           placeholder="Phone number"
+          pattern="[0-9]{3}"
+          required
         />
         <div class="icon-code">
           <svg class="icon-review">
@@ -339,3 +346,4 @@
     </div>
   </form>
 </div>
+<div class="overlay js-overlay-modal"></div>
