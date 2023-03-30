@@ -65,7 +65,7 @@
   .div-top-sellers-quotation-desk-tab {
     display: flex;
     justify-content: space-between;
-    padding-top: 32px;
+    margin-top: 32px;
   }
 }
 @media (min-width: 1200px) {
