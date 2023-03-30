@@ -1,7 +1,9 @@
 .subscribe {
+    text-align: center;
     max-height: 370px;
     width: 100%;
-    padding: 62px 20px;
+    padding-top: 62px;
+    padding-bottom: 62px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -28,7 +30,8 @@
 @media screen and (min-width: 768px) {
     .subscribe {
         width: 768px;
-        padding: 72px 150px;
+        padding-top: 72px;
+        padding-bottom: 72px;
         background-image: linear-gradient(0deg,
      rgba(0, 0, 0, 0.2),
      rgba(0, 0, 0, 0.2)),
@@ -48,7 +51,6 @@
     @media screen and (min-width: 1200px) {
     .subscribe {
         width: 1200px;
-        padding: 72px 366px;
         background-image: linear-gradient(0deg,
              rgba(0, 0, 0, 0.2),
              rgba(0, 0, 0, 0.2)),
@@ -66,7 +68,6 @@
 }
 }
 .subscribe_title {
-    text-align: center;
     margin-bottom: 24px;
     font-weight: 600;
     font-size: 20px;
@@ -75,13 +76,20 @@
     color: var(--color-white);
 }
 .subscribe_text {
-    text-align: center;
+    display: inline-block;
+    width: 326px;
     margin-bottom: 24px;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
     letter-spacing: -0.02em;
     color: var(--color-white);
+}
+@media screen and (min-width: 768px) {
+    .subscribe_text {
+        width:467px;
+
+    }
 }
 .subscribe_button {
     display: block;
@@ -203,6 +211,7 @@
     border-color: rgba(17, 17, 17, 0.05);
     width: 263px;
     height: 45px;
+    padding-left: 18px;
     border-radius: 100px;
     font-weight: 400;
     font-size: 14px;
@@ -213,6 +222,7 @@
     .subscribe-modal__input {
         width: 313px;
         height: 52px;
+        padding-left: 24px;
     }
         }
 .subscribe-modal__submit {
