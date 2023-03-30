@@ -27,13 +27,13 @@
 }
 
 .text-card-one {
-    width: 279px;
-        font-weight: 400;
-        font-size: 14px;
-        letter-spacing: -0.02em;
-        line-height: 1.2;
-        margin: 14px 28px;
-        
+  
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    line-height: 1;
+    margin-left: 28px;
+    margin-right: 28px;
 }
 
 .unique-color {
@@ -46,7 +46,7 @@
     letter-spacing: -0.02em;
 }
 
-.pages-unique{
+.pages-unique {
     display: flex;
     position: relative;
     overflow: hidden;
@@ -67,7 +67,6 @@
 }
 
 
-
 .unique-text-two {
     font-weight: 600;
     font-size: 14px;
@@ -76,7 +75,7 @@
     color: var(--color-white);
 }
 
-.unique-text-three{
+.unique-text-three {
     font-weight: 600;
     font-size: 14px;
     line-height: 1.2;
@@ -91,14 +90,13 @@
     text-decoration: none;
 }
 
-
 .card-image-chocolate {
     border: 1px solid #FD9222;
     border-radius: 15px;
     background-color: var(--color-orange);
 }
 
-.card-image-milk{
+.card-image-milk {
     border: 1px solid #FD9222;
     border-radius: 15px;
     background-color: var(--color-white);
@@ -114,6 +112,7 @@
 .card-image {
     padding-top: 28px;
     width: 335px;
+    border-radius: 15px;
 }
 
 .card-unique-decor {
@@ -125,30 +124,36 @@
     mix-blend-mode: normal;
     text-align: left;
     line-height: 1.2;
-    top: 0;
-    left: 0;
     transform: translateY(100%);
     width: 100%;
     height: 100%;
+    border-radius: 15px;
+    letter-spacing: -0.02em;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
 .pages-unique:hover .card-unique-decor {
-   transform: translateY(0);
+    transform: translateY(0);
 }
-
 
 .pages-unique-button {
     display: flex;
     padding-left: inherit;
-    margin-left: 28px;}
+    margin-left: 28px;
+    gap: 6px;
+    margin-top: 8px;
+    margin-bottom: 14px;
+}
 
 .button-unique {
     display: flex;
     justify-content: left;
     align-items: center;
     text-align: center;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.2;
     gap: 6px;
     background: #FAFAFA;
     border: 1px solid #FD9222;
@@ -156,19 +161,17 @@
     border-radius: 35px;
     cursor: pointer;
     padding: 6px 16px;
-    margin-left: 6px;
     transition: background-color 250ms, border-color 250ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-    
-    .button-unique:hover,
-    .button-unique:focus {
-        background-color: var(--color-orange);
-        border-color: var(--color-orange);
-        color: var(--color-white);
-        outline: none;
-    }
 
+.button-unique:hover,
+.button-unique:focus {
+    background-color: var(--color-orange);
+    border-color: var(--color-orange);
+    color: var(--color-white);
+    outline: none;
+}
 
 .uniq-img {
     display: flex;
@@ -178,16 +181,21 @@
 /*model*/
 
 @media screen and (min-width: 768px) {
-    
+
+    .unique {
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+/*
     .container-unique {
         width: 704px;
-        }
-    
+    }*/
+
     .container-unique-name {
-        margin-top: 100px;
+
         width: 704px;
-        margin-bottom: 100px;
-        }
+
+    }
 
     .unique-top-text {
         width: 486px;
@@ -230,24 +238,29 @@
 
 }
 
- 
+
 @media screen and (min-width: 1200px) {
-    .container-unique {
-            margin-top: 50px;
-            justify-content: center;
-            display: flex;
+    .unique {
+            padding-top: 72px;
+            padding-bottom: 72px;
         }
 
+
+    .container-unique {
+        justify-content: center;
+        display: flex;
+    }
+/*
     .container-unique-name {
         margin-top: 128px;
         margin-bottom: 128px;
-        }
+    }*/
 
     .unique-text {
-            width: 411px;
-            font-size: 24px;
-            line-height: 1.2;
-          }
+        width: 411px;
+        font-size: 24px;
+        line-height: 1.2;
+    }
 
     .unique-top-text {
         width: 486px;
@@ -255,23 +268,23 @@
         font-size: 14px;
         letter-spacing: -0.02em;
         line-height: 1.2;
-        }
+    }
 
     .pages-unique {
         display: flex;
         align-items: center;
         text-align: center;
-     
+
     }
 
     .card-image {
         width: 270px;
         height: 270px;
     }
-        
+
     .text-card {
-         display: flex;
-         margin: 36px 28px;
+        display: flex;
+        margin: 36px 28px;
     }
 
     .pages-unique-one {
@@ -279,12 +292,4 @@
         flex-wrap: nowrap;
         flex-basis: calc((100% - 19px * 3) / 4);
     }
-   
 }
-
-    
-
-
-
-
-
