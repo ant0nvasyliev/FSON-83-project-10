@@ -18,6 +18,7 @@ ul {
     }
 .footer-fon {
     background-color: var(--color-dark-purple);
+    padding-top: 32px;
 }
 .logo-first {
     width: 300;
@@ -60,11 +61,11 @@ ul {
     display: block;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     position: relative;
-    padding-top: 32px;
+    padding-bottom: 32px;
+    
 }
 .footer-p {
-    width: 300px;
-    padding-bottom: 32px;
+    width: 300px;   
 }
 .footer-social-media {
     font-family: 'Montserrat';
@@ -146,14 +147,14 @@ ul {
     }
     .footer-p {
         
-        padding-bottom: 54px;
-        padding-right: 124px;
+        margin-bottom: 54px;
+        margin-right: 124px;
     }
     .logo-first {
         width: 300;
     }
-    .footer-socials-link :hover,
-    .footer-socials-link :focus {
+    .footer-socials-icon :hover,
+    .footer-socials-icon :focus {
         background: var(--color-orange);
     }
 
@@ -167,7 +168,7 @@ ul {
         width: 300;
     }
     .footer-p {       
-        padding-right: 543px;
+        margin-right: 543px;
     }
     
     }
