@@ -8,9 +8,8 @@
 
 .logo-our-products {
   margin: 0 auto;
-  padding-bottom: 50px;
-  width: 196px;
-  height: 28px;
+margin-bottom: 50px;
+  
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -89,7 +88,7 @@
   color: #111111;
 }
 .image-slider-our-products {
-  margin-bottom: 32px;
+  margin-bottom: 62px;
 }
 
 .swiper-pagination-bullet {
