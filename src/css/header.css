@@ -99,6 +99,7 @@ display: none;
 .hidden-menu-ticker:checked ~ .btn-menu span.third:focus{
  background-color: var(--color-orange);
 }
+
 .mobile-menu > .container{
 height: 100%;
 display: flex;
@@ -186,6 +187,8 @@ stroke: var(--color-orange);
   .btn-menu{
     width: 32;
     height: 32px;
+  top: 24px;
+  right: 32px;
   }
   .mob-nav{
     margin-top: 100px;
