@@ -3,7 +3,6 @@
   padding: 0;
 }
 .container-top-sellers {
-  background: #FAFAFA;;
   padding-bottom: 72px;
 }
 @media (min-width: 768px) {
@@ -127,7 +126,6 @@
   padding-right: 24px;
   width: 100%;
   max-width: 311px;
-  overflow:scroll;
   border-radius: 15px;
   position: fixed;
   height: 100%;
