@@ -1,8 +1,6 @@
 .about-section {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 128px;
+  margin-bottom: 72px;
+  width: 100%;
 }
 
 .about-section-header {
@@ -142,6 +140,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
   }
 }
 
@@ -155,6 +154,8 @@
   .how-its-made {
     flex-wrap: nowrap;
     flex-direction: row;
+    width: 100%;
+    margin-bottom: 72px;
   }
 
   .about-section-description {
